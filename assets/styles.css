@@ -251,19 +251,21 @@ main > * { min-width: 0; }
 
 /* ---------- legend ---------- */
 
-.legend { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 18px; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 10px; }
 .legend span { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; color: var(--ink-2); }
 .legend i { width: 13px; height: 13px; border-radius: 3px; display: inline-block; }
 
 /* ---------- charts ---------- */
 
-.charts { display: grid; grid-template-columns: minmax(0, 1fr); gap: 30px; }
-.chart { min-width: 0; }
+.charts { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+/* figure carries a browser default margin of 1em 40px — that was most of the
+   dead space around each plot. */
+.chart { min-width: 0; margin: 0; }
 
 .chart figcaption {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 650;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   color: var(--ink);
 }
 
@@ -272,13 +274,12 @@ main > * { min-width: 0; }
 .chart figcaption .cap-sub {
   display: block;
   font-weight: 400;
-  font-size: 12.5px;
+  font-size: 12px;
   color: var(--ink-3);
-  margin-top: 2px;
 }
 
-.state-group { display: grid; grid-template-columns: minmax(0, 1fr); gap: 30px; }
-.state-group + .state-group { margin-top: 34px; }
+.state-group { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.state-group + .state-group { margin-top: 22px; }
 
 .state-head {
   display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px;
@@ -294,17 +295,6 @@ main > * { min-width: 0; }
   letter-spacing: 0; text-transform: none;
   font-size: 13px; font-weight: 400; color: var(--ink-3);
   font-variant-numeric: tabular-nums;
-}
-
-/* The plot scrolls horizontally when a bucket would otherwise get too thin
-   to read; svg min-width is set per chart from the bucket count. */
-.chart-scroll {
-  max-width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  overscroll-behavior-x: contain;
-  scrollbar-width: thin;
 }
 
 .chart svg { width: 100%; height: auto; display: block; overflow: visible; }
@@ -412,7 +402,6 @@ footer p { max-width: 78ch; margin: 0 auto; }
 
 /* ---------- mobile ---------- */
 
-.scroll-hint { display: none; }
 
 @media (max-width: 720px) {
   body { overflow-x: hidden; }
@@ -450,7 +439,6 @@ footer p { max-width: 78ch; margin: 0 auto; }
   .panel { padding: 16px 12px 18px; border-radius: 12px; }
   .charts { gap: 22px; }
   .chart figcaption { font-size: 14px; }
-  .scroll-hint { display: block; color: var(--ink-3); font-size: 12px; margin: 0 0 12px; }
 
   .grid { font-size: 13px; }
   .grid th, .grid td { padding: 8px 10px; }

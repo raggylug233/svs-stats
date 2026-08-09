@@ -242,14 +242,22 @@
 
     const ordered = [...units.values()].sort((x, y) => y.total - x.total);
 
-    // geometry
-    const W = 1000, H = 300;
-    const M = { top: 12, right: 8, bottom: 62, left: 62 };
+    // Geometry in CSS pixels: the viewBox is sized to the container so one
+    // user unit is one device-independent pixel. That keeps label text at a
+    // fixed readable size as the chart shrinks, instead of scaling it down
+    // into illegibility the way a fixed 1000-unit viewBox would.
+    const W = Math.max(300, Math.floor(host.clientWidth) || 900);
+    const H = Math.round(Math.min(320, Math.max(210, W * 0.3)));
+    const M = { top: 10, right: 6, bottom: 48, left: 52 };
     const plotW = W - M.left - M.right;
     const plotH = H - M.top - M.bottom;
     const band = plotW / xOrder.length;
-    const barW = band * 0.86;
+    const barW = Math.max(3, band * 0.86);
     const y = (v) => M.top + plotH - (v / yMax) * plotH;
+
+    // Rotated bucket labels need roughly 13px of run before they collide, so
+    // thin them out rather than letting them overlap on a narrow screen.
+    const labelStep = Math.max(1, Math.ceil(13 / band));
 
     const drawUnit = (u) => {
       {
@@ -309,12 +317,13 @@
 
         // x labels
         xOrder.forEach((b, i) => {
+          if (i % labelStep) return;
           const cx = M.left + i * band + band / 2;
           svg.appendChild(
             el("text", {
-              x: cx, y: H - M.bottom + 18,
+              x: cx, y: M.top + plotH + 16,
               "text-anchor": "end", fill: "#b9c0d4", "font-size": "12",
-              transform: `rotate(-45 ${cx} ${H - M.bottom + 18})`,
+              transform: `rotate(-45 ${cx} ${M.top + plotH + 16})`,
               text: fmtM(b),
             })
           );
@@ -328,13 +337,7 @@
         cap.appendChild(el("b", { text: fmtB(u.total) }));
         cap.appendChild(el("span", { class: "cap-sub", text: detail }));
 
-        // A phone can't show 27 buckets legibly at viewport width, so the plot
-        // gets its own horizontal scroller with a floor on how narrow a bucket
-        // may become. On desktop it simply fills the panel.
-        const scroller = el("div", { class: "chart-scroll" });
-        svg.style.minWidth = Math.max(560, xOrder.length * 32 + M.left + M.right) + "px";
-        scroller.appendChild(svg);
-        return el("figure", { class: "chart" }, [cap, scroller]);
+        return el("figure", { class: "chart" }, [cap, svg]);
       }
     };
 
@@ -465,6 +468,8 @@
         tr.appendChild(nameTd);
 
         tr.appendChild(el("td", { class: "num", text: fmtPower(p.power) }));
+        tr.appendChild(el("td", { class: "num", text: p.state }));
+        tr.appendChild(el("td", { text: `[${p.allianceTag}] ${p.alliance}` }));
 
         const rankTd = el("td");
         const pill = el("span", { class: "pill", text: p.rank });
@@ -475,8 +480,6 @@
         tr.appendChild(
           el("td", { class: p.furnace.startsWith("fc") ? "fc" : "f", text: p.furnace })
         );
-        tr.appendChild(el("td", { text: `[${p.allianceTag}] ${p.alliance}` }));
-        tr.appendChild(el("td", { class: "num", text: p.state }));
         return tr;
       })
     );
@@ -680,6 +683,18 @@
           activate();
         }
       });
+    });
+
+    // The chart viewBox is sized in real pixels, so a width change needs a
+    // redraw to keep label density and bar widths right.
+    let resizeTimer = null;
+    let lastW = 0;
+    window.addEventListener("resize", () => {
+      const w = Math.floor($("#charts").clientWidth);
+      if (w === lastW) return;
+      lastW = w;
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(renderCharts, 120);
     });
 
     window.addEventListener("scroll", hideTip, { passive: true });
