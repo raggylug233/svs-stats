@@ -1,0 +1,10 @@
+# Accidental iOS "File Provider Storage" sync dump — unrelated personal files
+# (SSH key, passport/insurance PDFs, invoices). NEVER commit: this repo is
+# published to GitHub Pages. Recommend deleting it or moving it out of the repo.
+data/2026.08.08/
+**/File Provider Storage/
+
+.venv/
+__pycache__/
+.DS_Store
+node_modules/

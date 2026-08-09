@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SvS Prep — Power Rankings</title>
+<meta name="description" content="Whiteout Survival state-vs-state power rankings by alliance, rank and furnace.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="glyph">&#9670;</span>
+    <div>
+      <h1>SvS&nbsp;PREP<span class="cursor"></span></h1>
+      <p class="sub">Whiteout Survival &mdash; alliance power intel</p>
+    </div>
+  </div>
+  <div class="controls">
+    <label>Snapshot
+      <select id="sel-date"></select>
+    </label>
+    <label>State
+      <select id="sel-state"></select>
+    </label>
+  </div>
+</header>
+
+<main>
+  <section class="tiles" id="tiles" aria-label="Summary"></section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Power Distribution</h2>
+      <p id="chart-sub" class="panel-sub"></p>
+    </div>
+    <div class="legend" id="legend" role="list" aria-label="Rank colours"></div>
+    <div id="charts" class="charts"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Alliances</h2>
+      <p class="panel-sub">Totals from the roster below &mdash; member counts verified against each alliance info screen.</p>
+    </div>
+    <div class="table-scroll">
+      <table id="alliance-table" class="grid">
+        <thead>
+          <tr>
+            <th>Alliance</th><th>State</th><th class="num">Members</th>
+            <th class="num">Total Power</th><th class="num">Avg</th><th class="num">Top</th>
+            <th class="num">R5</th><th class="num">R4</th><th class="num">R3</th><th class="num">R2</th><th class="num">R1</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Players</h2>
+      <p class="panel-sub"><span id="player-count"></span> &mdash; click a column to sort.</p>
+    </div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search chief name&hellip;" aria-label="Search chief name">
+      <select id="sel-alliance" aria-label="Filter by alliance"></select>
+      <select id="sel-rank" aria-label="Filter by rank"></select>
+      <select id="sel-furnace" aria-label="Filter by furnace"></select>
+      <button id="reset" type="button">Reset</button>
+    </div>
+    <div class="table-scroll">
+      <table id="player-table" class="grid">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th data-sort="chiefName">Chief Name</th>
+            <th class="num" data-sort="power">Power</th>
+            <th data-sort="rank">Rank</th>
+            <th data-sort="furnace">Furnace</th>
+            <th data-sort="alliance">Alliance</th>
+            <th class="num" data-sort="state">State</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="footnote">Names marked <span class="flag">&#9888;</span> use decorative glyphs that may not have transcribed exactly &mdash; correct them in <code>data/snapshots/&lt;date&gt;.json</code>.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Data extracted once from in-game screenshots and stored in
+     <code>data/snapshots/</code>. The site reads only that JSON &mdash; screenshots are never re-read.</p>
+</footer>
+
+<div id="tooltip" class="tooltip" role="status" aria-live="polite"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

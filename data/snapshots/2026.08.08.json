@@ -1,0 +1,6635 @@
+{
+ "date": "2026.08.08",
+ "states": [
+  "3073",
+  "3178"
+ ],
+ "playerCount": 631,
+ "alliances": [
+  {
+   "tag": "STK",
+   "name": "TheHouseofStark",
+   "state": "3073",
+   "memberCount": 88,
+   "memberCapacity": 100,
+   "infoImage": "IMG_2114.PNG",
+   "rosterImages": [
+    "IMG_2115.PNG",
+    "IMG_2116.PNG",
+    "IMG_2117.PNG",
+    "IMG_2118.PNG",
+    "IMG_2119.PNG",
+    "IMG_2120.PNG",
+    "IMG_2121.PNG",
+    "IMG_2122.PNG"
+   ],
+   "rankLabels": {
+    "R4": "High Table",
+    "R3": "The Divine",
+    "R2": "The Noble",
+    "R1": "Wanderer"
+   },
+   "key": "3073_STK",
+   "rankCounts": {
+    "R5": 1,
+    "R4": 9,
+    "R3": 32,
+    "R2": 30,
+    "R1": 16
+   },
+   "totalPower": 25659200000
+  },
+  {
+   "tag": "INF",
+   "name": "INFINITY",
+   "state": "3073",
+   "memberCount": 98,
+   "memberCapacity": 100,
+   "infoImage": "IMG_2123.PNG",
+   "rosterImages": [
+    "IMG_2124.PNG",
+    "IMG_2125.PNG",
+    "IMG_2126.PNG",
+    "IMG_2127.PNG",
+    "IMG_2128.PNG",
+    "IMG_2129.PNG",
+    "IMG_2130.PNG",
+    "IMG_2131.PNG",
+    "IMG_2132.PNG"
+   ],
+   "rankLabels": {
+    "R4": "Council",
+    "R3": "Infinity",
+    "R2": "X Com/Tele",
+    "R1": "UP or OUT"
+   },
+   "key": "3073_INF",
+   "rankCounts": {
+    "R5": 1,
+    "R4": 9,
+    "R3": 64,
+    "R2": 14,
+    "R1": 10
+   },
+   "totalPower": 14291500000
+  },
+  {
+   "tag": "PrO",
+   "name": "FarmColective",
+   "state": "3073",
+   "memberCount": 55,
+   "memberCapacity": 100,
+   "infoImage": "IMG_2133.PNG",
+   "rosterImages": [
+    "IMG_2134.PNG",
+    "IMG_2135.PNG",
+    "IMG_2136.PNG",
+    "IMG_2137.PNG",
+    "IMG_2138.PNG",
+    "IMG_2139.PNG"
+   ],
+   "rankLabels": {
+    "R4": "R4 PrO",
+    "R3": "Regular",
+    "R2": "Time2Time",
+    "R1": "Inactive"
+   },
+   "key": "3073_PrO",
+   "rankCounts": {
+    "R5": 1,
+    "R4": 5,
+    "R3": 12,
+    "R2": 7,
+    "R1": 30
+   },
+   "totalPower": 3710680422
+  },
+  {
+   "tag": "PWR",
+   "name": "OrganizedChaos",
+   "state": "3073",
+   "memberCount": 9,
+   "memberCapacity": 100,
+   "infoImage": "IMG_2140.PNG",
+   "rosterImages": [
+    "IMG_2141.PNG",
+    "IMG_2142.PNG"
+   ],
+   "rankLabels": {
+    "R4": "HighTable",
+    "R3": "The Divine",
+    "R2": "The Elite",
+    "R1": "Valiant"
+   },
+   "key": "3073_PWR",
+   "rankCounts": {
+    "R5": 1,
+    "R4": 1,
+    "R3": 7,
+    "R2": 0,
+    "R1": 0
+   },
+   "totalPower": 3332800000
+  },
+  {
+   "tag": "VKR",
+   "name": "Vikings",
+   "state": "3178",
+   "memberCount": 98,
+   "memberCapacity": 100,
+   "infoImage": "IMG_2143.PNG",
+   "rosterImages": [
+    "IMG_2144.PNG",
+    "IMG_2145.PNG",
+    "IMG_2146.PNG",
+    "IMG_2147.PNG",
+    "IMG_2148.PNG",
+    "IMG_2149.PNG",
+    "IMG_2150.PNG",
+    "IMG_2151.PNG",
+    "IMG_2152.PNG"
+   ],
+   "rankLabels": {
+    "R4": "Jarls",
+    "R3": "Karls",
+    "R2": "Thralls",
+    "R1": "Draugr"
+   },
+   "key": "3178_VKR",
+   "rankCounts": {
+    "R5": 1,
+    "R4": 7,
+    "R3": 81,
+    "R2": 0,
+    "R1": 9
+   },
+   "totalPower": 29084200000
+  },
+  {
+   "tag": "UFO",
+   "name": "Aliens",
+   "state": "3178",
+   "memberCount": 98,
+   "memberCapacity": 100,
+   "infoImage": "IMG_2153.PNG",
+   "rosterImages": [
+    "IMG_2154.PNG",
+    "IMG_2155.PNG",
+    "IMG_2156.PNG",
+    "IMG_2157.PNG",
+    "IMG_2158.PNG",
+    "IMG_2159.PNG",
+    "IMG_2160.PNG",
+    "IMG_2161.PNG",
+    "IMG_2162.PNG"
+   ],
+   "rankLabels": {
+    "R4": "Alliance Rank 4",
+    "R3": "Alliance Rank 3",
+    "R2": "Alliance Rank 2",
+    "R1": "Alliance Rank 1"
+   },
+   "key": "3178_UFO",
+   "rankCounts": {
+    "R5": 1,
+    "R4": 8,
+    "R3": 59,
+    "R2": 27,
+    "R1": 3
+   },
+   "totalPower": 23867300000
+  },
+  {
+   "tag": "TTC",
+   "name": "東都",
+   "state": "3178",
+   "memberCount": 86,
+   "memberCapacity": 100,
+   "infoImage": "IMG_2163.PNG",
+   "rosterImages": [
+    "IMG_2164.PNG",
+    "IMG_2165.PNG",
+    "IMG_2166.PNG",
+    "IMG_2167.PNG",
+    "IMG_2168.PNG",
+    "IMG_2169.PNG",
+    "IMG_2170.PNG",
+    "IMG_2171.PNG"
+   ],
+   "rankLabels": {
+    "R4": "연맹 계급 4",
+    "R3": "연맹 계급 3",
+    "R2": "연맹 계급 2",
+    "R1": "연맹 계급 1"
+   },
+   "key": "3178_TTC",
+   "rankCounts": {
+    "R5": 1,
+    "R4": 12,
+    "R3": 53,
+    "R2": 11,
+    "R1": 9
+   },
+   "totalPower": 22410300000
+  },
+  {
+   "tag": "SIN",
+   "name": "BeechesOfChaos",
+   "state": "3178",
+   "memberCount": 99,
+   "memberCapacity": 100,
+   "infoImage": "IMG_2172.PNG",
+   "rosterImages": [
+    "IMG_2173.PNG",
+    "IMG_2174.PNG",
+    "IMG_2175.PNG",
+    "IMG_2176.PNG",
+    "IMG_2177.PNG",
+    "IMG_2178.PNG",
+    "IMG_2179.PNG",
+    "IMG_2180.PNG",
+    "IMG_2181.PNG",
+    "IMG_2182.PNG"
+   ],
+   "rankLabels": {
+    "R4": "R04",
+    "R3": "R03",
+    "R2": "Check msg",
+    "R1": "Offline 5+"
+   },
+   "key": "3178_SIN",
+   "rankCounts": {
+    "R5": 1,
+    "R4": 9,
+    "R3": 63,
+    "R2": 11,
+    "R1": 15
+   },
+   "totalPower": 21763700000
+  }
+ ],
+ "players": [
+  {
+   "chiefName": "ANTHONY TARK",
+   "power": 323300000,
+   "rank": "R5",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "GORDONS",
+   "power": 605900000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "-†- chσcσlatє -†-",
+   "power": 521900000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "KaVaZzZzZ",
+   "power": 405800000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "RaveNN",
+   "power": 389000000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "RakCity",
+   "power": 354700000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ƨЄʇʇnuwɐʜS",
+   "power": 349300000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lucien1388",
+   "power": 325400000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "K A I Y A",
+   "power": 271500000,
+   "rank": "R4",
+   "furnace": "fc4",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Stark Strategist",
+   "power": 1100000,
+   "rank": "R4",
+   "furnace": "f17",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Rigby",
+   "power": 529400000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "KıMSız",
+   "power": 525200000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "EC1",
+   "power": 483000000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "",
+   "power": 472000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true,
+   "note": "chief name renders blank in-game"
+  },
+  {
+   "chiefName": "∾Sebas≋",
+   "power": 471800000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Lordsnowboard",
+   "power": 445300000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "≋∾CALİENTE∾≋",
+   "power": 438100000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "RumeliCity",
+   "power": 436800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ⓑBAILEYS🎧〰",
+   "power": 428900000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "кєναγ",
+   "power": 420800000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "HOT DOG",
+   "power": 419800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ash!",
+   "power": 413700000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "WWW",
+   "power": 411100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "_GE2",
+   "power": 406900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Cheese",
+   "power": 396500000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "-†-ⒼⒽⓄⓈⓉ-†-",
+   "power": 392100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "諾亞方舟",
+   "power": 383600000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ForDuckSake",
+   "power": 359400000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "◯-†-QUEEN-†-◯",
+   "power": 345800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Faruk",
+   "power": 335900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Stars",
+   "power": 330600000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Fran˅",
+   "power": 325000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "XXXAmsterdamXXX",
+   "power": 322200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "fit",
+   "power": 320800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "666 Hip hop",
+   "power": 314500000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "BKNSTER",
+   "power": 312200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Daniel Jackson",
+   "power": 310400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Gabriel ARG",
+   "power": 308700000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "rayan",
+   "power": 307800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Junior",
+   "power": 307600000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "HexFire",
+   "power": 304300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SʜiRO",
+   "power": 302700000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "宮美春洽",
+   "power": 302600000,
+   "rank": "R2",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "CARLOS VENEZUELA",
+   "power": 299600000,
+   "rank": "R2",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Martii95xd",
+   "power": 299000000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LUCHY˅",
+   "power": 296400000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "jenlin",
+   "power": 291000000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "大QQ",
+   "power": 288600000,
+   "rank": "R2",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "poseidon974",
+   "power": 284400000,
+   "rank": "R2",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "QueenV56",
+   "power": 282300000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mah",
+   "power": 277800000,
+   "rank": "R2",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Bahaa Soubh",
+   "power": 277000000,
+   "rank": "R2",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Bittergal",
+   "power": 275400000,
+   "rank": "R2",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "meelzo",
+   "power": 270900000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ahmed@124sghkbv",
+   "power": 268000000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Cristian 1289",
+   "power": 258900000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "warner011059",
+   "power": 244400000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "룩티쿠",
+   "power": 234700000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "장대장대장대",
+   "power": 234100000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Bro07",
+   "power": 233500000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "AlexShiro˅",
+   "power": 229000000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "ADRIAN2913 3073",
+   "power": 226700000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "el10neen",
+   "power": 226600000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Elias Alemad",
+   "power": 225400000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ComodoDragon",
+   "power": 218200000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Bluebird",
+   "power": 215300000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Catalinita˅",
+   "power": 214800000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "bigE",
+   "power": 212500000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Angry_jesus",
+   "power": 211600000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Antho",
+   "power": 209500000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Анна",
+   "power": 206800000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Chief Ken 12185",
+   "power": 202600000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Jayop",
+   "power": 189300000,
+   "rank": "R1",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Moataz",
+   "power": 186000000,
+   "rank": "R1",
+   "furnace": "fc7",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ReyHernan2",
+   "power": 185200000,
+   "rank": "R1",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ahmad Zezo🐨",
+   "power": 182500000,
+   "rank": "R1",
+   "furnace": "fc6",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Jesualdo",
+   "power": 158600000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "HULKANTONIO",
+   "power": 157100000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "˜heyLüv〰",
+   "power": 157000000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Olivia0628",
+   "power": 153700000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "日曜山",
+   "power": 146100000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ali DZ",
+   "power": 138900000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Patryqss",
+   "power": 128300000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Immort@l",
+   "power": 124800000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MALCOLM",
+   "power": 122900000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "King Dozer",
+   "power": 120300000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "dessiog",
+   "power": 94900000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Z64",
+   "power": 65200000,
+   "rank": "R1",
+   "furnace": "f30",
+   "alliance": "TheHouseofStark",
+   "allianceTag": "STK",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mad Santa",
+   "power": 166000000,
+   "rank": "R5",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "リムル",
+   "power": 352900000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LZ941119",
+   "power": 378000000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Halfchoppedonion",
+   "power": 102600000,
+   "rank": "R4",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "The Snowflake",
+   "power": 299800000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LordBrandon1989",
+   "power": 221800000,
+   "rank": "R4",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lord Raj",
+   "power": 49600000,
+   "rank": "R4",
+   "furnace": "f30",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mimosa",
+   "power": 214600000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Yeet2021w",
+   "power": 33900000,
+   "rank": "R4",
+   "furnace": "f26",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "HOT CAT",
+   "power": 281600000,
+   "rank": "R4",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "_GE1",
+   "power": 398000000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "im_Baymax",
+   "power": 225100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "×₊* ﹨PILI ⁄ *₊×",
+   "power": 235000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Grimmjow",
+   "power": 371800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ɓęąţ Ɓřîηĝěř",
+   "power": 300900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Agha Balti",
+   "power": 91100000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Soldier101",
+   "power": 204400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "nomnom",
+   "power": 69400000,
+   "rank": "R3",
+   "furnace": "f30",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "주니차니",
+   "power": 179400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "CuzIgotHigh",
+   "power": 239800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "BigDawg",
+   "power": 196800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mamad",
+   "power": 187100000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Fox Mulder",
+   "power": 163800000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Vex",
+   "power": 219400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Gandalf",
+   "power": 163300000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Alex 89",
+   "power": 124600000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ryder of Reeder",
+   "power": 80700000,
+   "rank": "R3",
+   "furnace": "f30",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lord_oturan boga",
+   "power": 156400000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "shi_ka007",
+   "power": 230900000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "zidane",
+   "power": 161800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "alexcheng",
+   "power": 183200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "tank",
+   "power": 125800000,
+   "rank": "R3",
+   "furnace": "f30",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "furryman 69",
+   "power": 106800000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mativeiras",
+   "power": 210500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Phantom",
+   "power": 52100000,
+   "rank": "R3",
+   "furnace": "f28",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mahdi__Farhi",
+   "power": 17300000,
+   "rank": "R3",
+   "furnace": "f26",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Grad",
+   "power": 236800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "DDDejvid",
+   "power": 111600000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Yama",
+   "power": 287000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Thorreson",
+   "power": 174100000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Supr3m3",
+   "power": 161200000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ACE_6_0_6",
+   "power": 170300000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "سند عمر G",
+   "power": 233300000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "hahaha1234567890",
+   "power": 314200000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "basammady",
+   "power": 229300000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ERBOL",
+   "power": 76600000,
+   "rank": "R3",
+   "furnace": "f30",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Frances498897215",
+   "power": 175700000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Dragon Slayer",
+   "power": 101200000,
+   "rank": "R3",
+   "furnace": "f29",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Eric Motata",
+   "power": 103900000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Love 5209999",
+   "power": 317800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "carlostoby",
+   "power": 161000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Jesperzzzz",
+   "power": 176100000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "BigDog Daddy",
+   "power": 215100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Blan",
+   "power": 144800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Roidh3ryo",
+   "power": 190700000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "にほんじんです",
+   "power": 158100000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "jaxter",
+   "power": 87400000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "VeronicaVerniece",
+   "power": 62100000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Abbie",
+   "power": 56400000,
+   "rank": "R3",
+   "furnace": "f29",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ZENX",
+   "power": 310500000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "-†-GOOD乂Kiki-†-",
+   "power": 86000000,
+   "rank": "R3",
+   "furnace": "fc1",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "_mini GE4",
+   "power": 118800000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Christina!",
+   "power": 191800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Jennsita",
+   "power": 21000000,
+   "rank": "R3",
+   "furnace": "f28",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Jingle Bells",
+   "power": 146600000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Sparkle ChiChis",
+   "power": 122400000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Red Kacang",
+   "power": 133400000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Satan's Farm",
+   "power": 131400000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Sûltan",
+   "power": 77800000,
+   "rank": "R3",
+   "furnace": "fc1",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "BabyRaks",
+   "power": 203900000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "HOLIDAY ʕ•ᴥ•ʔ",
+   "power": 57100000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Atbreak",
+   "power": 90000000,
+   "rank": "R3",
+   "furnace": "fc1",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Baby Snowflake",
+   "power": 119700000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Morigana",
+   "power": 41900000,
+   "rank": "R3",
+   "furnace": "f27",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Shaggy 87",
+   "power": 55600000,
+   "rank": "R2",
+   "furnace": "f29",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Smarti Max",
+   "power": 9200000,
+   "rank": "R2",
+   "furnace": "f18",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Silasnike30",
+   "power": 21800000,
+   "rank": "R2",
+   "furnace": "f28",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Number one 777",
+   "power": 68200000,
+   "rank": "R2",
+   "furnace": "f29",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "예아링",
+   "power": 17900000,
+   "rank": "R2",
+   "furnace": "f24",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "BBBatman",
+   "power": 6700000,
+   "rank": "R2",
+   "furnace": "f21",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "DanDan",
+   "power": 100000000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Yobro",
+   "power": 132100000,
+   "rank": "R2",
+   "furnace": "fc2",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ANDD",
+   "power": 153200000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "#3072Vivian",
+   "power": 57000000,
+   "rank": "R2",
+   "furnace": "f27",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "tapper",
+   "power": 26300000,
+   "rank": "R2",
+   "furnace": "f30",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "peas of cake",
+   "power": 110600000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Deann",
+   "power": 55200000,
+   "rank": "R2",
+   "furnace": "f29",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Sleepy Polar",
+   "power": 20900000,
+   "rank": "R2",
+   "furnace": "f25",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "冷たいタパイ",
+   "power": 103600000,
+   "rank": "R1",
+   "furnace": "fc7",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Romio",
+   "power": 154100000,
+   "rank": "R1",
+   "furnace": "fc1",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "real1",
+   "power": 71300000,
+   "rank": "R1",
+   "furnace": "f30",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "IRISHA iriska",
+   "power": 37100000,
+   "rank": "R1",
+   "furnace": "f28",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "K5ii",
+   "power": 22900000,
+   "rank": "R1",
+   "furnace": "f28",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ConroyClan",
+   "power": 87000000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "xdevil",
+   "power": 84900000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Golden Dragon AK",
+   "power": 125200000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "kprea",
+   "power": 90400000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Best man",
+   "power": 87100000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "INFINITY",
+   "allianceTag": "INF",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Farm_Dézingueur",
+   "power": 239000000,
+   "rank": "R5",
+   "furnace": "fc5",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Loki's Horden",
+   "power": 246600000,
+   "rank": "R4",
+   "furnace": "fc5",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Satan's Beach",
+   "power": 169200000,
+   "rank": "R4",
+   "furnace": "fc5",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SatanLittlePony",
+   "power": 152700000,
+   "rank": "R4",
+   "furnace": "fc5",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ray Farm",
+   "power": 40800000,
+   "rank": "R4",
+   "furnace": "f28",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Grosminet",
+   "power": 4100000,
+   "rank": "R4",
+   "furnace": "f16",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "빵pro언니",
+   "power": 270300000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "zakrea 87",
+   "power": 174400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "скиф",
+   "power": 134600000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Anna Havana",
+   "power": 103300000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "y0k0Yok0",
+   "power": 92100000,
+   "rank": "R3",
+   "furnace": "f29",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Snowbunny73061",
+   "power": 75400000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Yumy",
+   "power": 71500000,
+   "rank": "R3",
+   "furnace": "fc1",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ㅋㅋㅋㅋ",
+   "power": 71200000,
+   "rank": "R3",
+   "furnace": "f30",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Undead DK",
+   "power": 54400000,
+   "rank": "R3",
+   "furnace": "f28",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "dragon",
+   "power": 52200000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ᴀLY",
+   "power": 45900000,
+   "rank": "R3",
+   "furnace": "f28",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "na!2",
+   "power": 42700000,
+   "rank": "R3",
+   "furnace": "f29",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Edward I",
+   "power": 167900000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "bekiranil07",
+   "power": 95800000,
+   "rank": "R2",
+   "furnace": "fc1",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Rolin",
+   "power": 42900000,
+   "rank": "R2",
+   "furnace": "fc1",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "jalal",
+   "power": 41900000,
+   "rank": "R2",
+   "furnace": "fc1",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "FARM flower",
+   "power": 3800000,
+   "rank": "R2",
+   "furnace": "f20",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "maged",
+   "power": 2700000,
+   "rank": "R2",
+   "furnace": "f17",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "DellaNn",
+   "power": 421016,
+   "rank": "R2",
+   "furnace": "f8",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ShadowStorm369",
+   "power": 142400000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "#3070Kadir",
+   "power": 116100000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Country",
+   "power": 110400000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "mit",
+   "power": 106500000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mariebibi2",
+   "power": 87900000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Wai",
+   "power": 82000000,
+   "rank": "R1",
+   "furnace": "f29",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MiniDeus",
+   "power": 72000000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Tuğçe Çoban",
+   "power": 63800000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Catbeer",
+   "power": 63300000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "elrawy 7",
+   "power": 56600000,
+   "rank": "R1",
+   "furnace": "fc1",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Pat ouille",
+   "power": 53700000,
+   "rank": "R1",
+   "furnace": "f28",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Rodrigo45",
+   "power": 49300000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "iron",
+   "power": 45900000,
+   "rank": "R1",
+   "furnace": "f29",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "marva",
+   "power": 36200000,
+   "rank": "R1",
+   "furnace": "f28",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Considerably",
+   "power": 35300000,
+   "rank": "R1",
+   "furnace": "f26",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Farm EliasAlemad",
+   "power": 33200000,
+   "rank": "R1",
+   "furnace": "f26",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "PolskaGora2",
+   "power": 32900000,
+   "rank": "R1",
+   "furnace": "f30",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Erume07",
+   "power": 31300000,
+   "rank": "R1",
+   "furnace": "f26",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SAM",
+   "power": 26000000,
+   "rank": "R1",
+   "furnace": "f29",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "lord496521313",
+   "power": 12900000,
+   "rank": "R1",
+   "furnace": "f23",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "zephyrFarm",
+   "power": 12300000,
+   "rank": "R1",
+   "furnace": "f23",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Yusif",
+   "power": 10500000,
+   "rank": "R1",
+   "furnace": "f22",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Habub D Law",
+   "power": 9600000,
+   "rank": "R1",
+   "furnace": "f27",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "BabyGigglies",
+   "power": 8400000,
+   "rank": "R1",
+   "furnace": "f22",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Little Vivi",
+   "power": 3900000,
+   "rank": "R1",
+   "furnace": "f17",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "layy",
+   "power": 3600000,
+   "rank": "R1",
+   "furnace": "f17",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Marian",
+   "power": 3600000,
+   "rank": "R1",
+   "furnace": "f17",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "lord499011784",
+   "power": 2800000,
+   "rank": "R1",
+   "furnace": "f17",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "احمد اياد",
+   "power": 1900000,
+   "rank": "R1",
+   "furnace": "f17",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "lord496618854",
+   "power": 559406,
+   "rank": "R1",
+   "furnace": "f10",
+   "alliance": "FarmColective",
+   "allianceTag": "PrO",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "RavenNFarm",
+   "power": 6000000,
+   "rank": "R5",
+   "furnace": "f20",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Profesör",
+   "power": 275700000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Be@5ty",
+   "power": 664300000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "kartanesi",
+   "power": 457200000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Aegis",
+   "power": 366700000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "FARAMİR〰",
+   "power": 451300000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "ⓁⓊⒸⒶⓈ",
+   "power": 321600000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "MoAnA",
+   "power": 462000000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "°∽ೲ°Alex°ೲ∽°",
+   "power": 328000000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "OrganizedChaos",
+   "allianceTag": "PWR",
+   "state": "3073",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "MrWaterLemonᵛᵏʳ",
+   "power": 324800000,
+   "rank": "R5",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Mushroomᵛᵏʳ",
+   "power": 573600000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Rolloᵛᵏʳ",
+   "power": 552600000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Peppermint",
+   "power": 523200000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "kaliグラ",
+   "power": 390000000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ColossusX",
+   "power": 389500000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Schamser",
+   "power": 525900000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mint",
+   "power": 254900000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lord Shrek IVᵛᵏʳ",
+   "power": 485100000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "FMC",
+   "power": 471000000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Chaky",
+   "power": 438300000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Schnitzel Ninja",
+   "power": 415400000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ritz",
+   "power": 413800000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "warrior wolf",
+   "power": 398800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "huam31",
+   "power": 397800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Hnoo ᵏˢᵃ",
+   "power": 395700000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "ExChaosᵛᵏʳ",
+   "power": 381500000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Sassafras McGill",
+   "power": 381100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Joker",
+   "power": 378000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Micky",
+   "power": 377200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "silence",
+   "power": 366100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "fake basti",
+   "power": 364900000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lady Fionaᵛᵏʳ",
+   "power": 360300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "MR X",
+   "power": 359600000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Dublin 1890",
+   "power": 357200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "I'm Awesome!",
+   "power": 345900000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Allis Tsoi",
+   "power": 341200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Fenerbahçe",
+   "power": 335300000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lyne ᵛᵏʳ",
+   "power": 334600000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "exLUIS",
+   "power": 334100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LORENZO 91",
+   "power": 332700000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "sam",
+   "power": 332700000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Anonymus",
+   "power": 331800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kaerii",
+   "power": 319000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Momottě",
+   "power": 317100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Snowman",
+   "power": 311400000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Floki",
+   "power": 310200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Eggs",
+   "power": 306100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lucianᵛᵏʳ",
+   "power": 305400000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Freyaᵛᴷᴿ",
+   "power": 303300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Aashman",
+   "power": 293700000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Willy Whackit",
+   "power": 291800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "小孩王King of kids",
+   "power": 275400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MBTI: JOKER",
+   "power": 273500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "YobuShobuSunGoku",
+   "power": 271500000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "marebito",
+   "power": 264900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Eluree4eva",
+   "power": 247100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Howie",
+   "power": 242000000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ramona",
+   "power": 227900000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Reptans",
+   "power": 227500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LoXiCatt",
+   "power": 225400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Sima",
+   "power": 207800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MVRC0",
+   "power": 172000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "3C SPCX",
+   "power": 395900000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kappy",
+   "power": 272500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "毛匚万丅孔万丫",
+   "power": 272900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Bay",
+   "power": 233400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Uesta",
+   "power": 81200000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Fluffy",
+   "power": 268200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "VivaResistᵛᵏʳ",
+   "power": 228700000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Nomadic",
+   "power": 101800000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Sun God Nika",
+   "power": 284600000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LOLA5",
+   "power": 174700000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "≋ may ᵛᵏʳ ≋",
+   "power": 138700000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Romain",
+   "power": 178700000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Stone",
+   "power": 296700000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ميشو",
+   "power": 175800000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "TÜRK Ottoman",
+   "power": 152900000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lord jan",
+   "power": 184600000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Amy",
+   "power": 270800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "IRA",
+   "power": 375600000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Gang&ter 007",
+   "power": 320000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Vex",
+   "power": 285100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Seany",
+   "power": 265900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Tohrmentᵛᵏʳ",
+   "power": 296800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Gogohand",
+   "power": 154500000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "AymerVW",
+   "power": 329400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Danny",
+   "power": 223500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Vyper girl",
+   "power": 227500000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Yuji",
+   "power": 155900000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Donkey",
+   "power": 139400000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Buu",
+   "power": 281900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "~°Queen Luna°~",
+   "power": 281900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Eduaztlán",
+   "power": 239500000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Eddy",
+   "power": 337500000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Eggplant",
+   "power": 349300000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Spike12345",
+   "power": 386500000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "stellagirl",
+   "power": 115400000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "reelu4eva",
+   "power": 320100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ragnar&Logan",
+   "power": 106100000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kira",
+   "power": 155600000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "James MP",
+   "power": 209500000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "JarJarBod528ᵛᵏʳ",
+   "power": 215200000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Räven",
+   "power": 269800000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lord Santa",
+   "power": 201300000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Charlotteᵛᵏʳ",
+   "power": 201400000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Mohammed Ali som",
+   "power": 270300000,
+   "rank": "R1",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Caique",
+   "power": 299600000,
+   "rank": "R1",
+   "furnace": "fc6",
+   "alliance": "Vikings",
+   "allianceTag": "VKR",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Nibbler",
+   "power": 421100000,
+   "rank": "R5",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Germ",
+   "power": 501700000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Raggylug",
+   "power": 431900000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SassylilDevil",
+   "power": 419600000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ananas",
+   "power": 381900000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ღ Mai ღ",
+   "power": 377400000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Shaka",
+   "power": 366900000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Awares",
+   "power": 363800000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "∽ᏕᎻᎬᏞᏰᎽ∽",
+   "power": 286300000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Team Biscuit",
+   "power": 535700000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Leoder",
+   "power": 448900000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Freefall",
+   "power": 155700000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lord of North",
+   "power": 224900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MonarchNaka",
+   "power": 223300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kranky",
+   "power": 273300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Goody~",
+   "power": 433100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Fangs of Maple",
+   "power": 430200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Chytras",
+   "power": 429400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Malibus Farm",
+   "power": 421700000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kat",
+   "power": 398200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LE RAT CANAM",
+   "power": 385600000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ms Get Down",
+   "power": 385100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Interstellar",
+   "power": 381700000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "只是條理",
+   "power": 381200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "USO GREYS",
+   "power": 366600000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "VΛCTØRINØЖ",
+   "power": 363700000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "~ Ava ~",
+   "power": 348300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "PsyPat",
+   "power": 319100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lïna",
+   "power": 313800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Tosha",
+   "power": 301800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Reddyvetty",
+   "power": 301700000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Japip",
+   "power": 294300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Meg",
+   "power": 277800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Cofi",
+   "power": 276800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "#3174joemama",
+   "power": 255000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Arwres Sorcha3",
+   "power": 252500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Peter",
+   "power": 250300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Wrath",
+   "power": 244200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Jesse",
+   "power": 241900000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Dobbinater",
+   "power": 241200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "mimin",
+   "power": 238400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Phoenix Flames",
+   "power": 238200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "8SMITTY8",
+   "power": 237200000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Middletonia",
+   "power": 229600000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "#3174Den",
+   "power": 134200000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Manabeille",
+   "power": 225900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LMX",
+   "power": 228100000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SANCAK",
+   "power": 216100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Happy",
+   "power": 171200000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SNOW X JOKER",
+   "power": 231000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "The uncle",
+   "power": 231000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "chefinha",
+   "power": 222900000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Gemini",
+   "power": 207800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Paulo'",
+   "power": 313100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "capy bara",
+   "power": 126200000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lord Sanimales",
+   "power": 224800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "~SHADAI~",
+   "power": 220400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SHERE KHAN",
+   "power": 159000000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Elysian",
+   "power": 98000000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Celestis",
+   "power": 193800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "effylyt",
+   "power": 215900000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Doxter",
+   "power": 213700000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "lucky charms",
+   "power": 210200000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Razira",
+   "power": 148000000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "المهندسة",
+   "power": 183400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Carlitos__",
+   "power": 172100000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ᴵRADA°ೲ°∽",
+   "power": 208800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Loonytoons",
+   "power": 133500000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Baby bracchio",
+   "power": 179300000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "lord519151457",
+   "power": 77300000,
+   "rank": "R2",
+   "furnace": "fc1",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "fafik",
+   "power": 115500000,
+   "rank": "R2",
+   "furnace": "fc3",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "İbrahim",
+   "power": 251700000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Benson",
+   "power": 159100000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Cassss",
+   "power": 140900000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Venus FlyTrap",
+   "power": 153900000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "#3207Taylor",
+   "power": 156700000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "isabela",
+   "power": 243000000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lord_Kris",
+   "power": 205900000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Savage",
+   "power": 70900000,
+   "rank": "R2",
+   "furnace": "fc3",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Marie",
+   "power": 304400000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ESPARTACO",
+   "power": 260300000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Panda",
+   "power": 156400000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "WeHaveCandy ᐞ",
+   "power": 134700000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Penny",
+   "power": 161800000,
+   "rank": "R2",
+   "furnace": "fc3",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "megs",
+   "power": 95100000,
+   "rank": "R2",
+   "furnace": "fc2",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "EpicBean",
+   "power": 157700000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Sunflower",
+   "power": 98800000,
+   "rank": "R2",
+   "furnace": "fc1",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MajorDestructioṇ",
+   "power": 74100000,
+   "rank": "R2",
+   "furnace": "f30",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "TeamKashiBiscuit",
+   "power": 238200000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mini Raggylug",
+   "power": 185900000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ჟც Mai Farm ჟც",
+   "power": 139700000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Middletonia #2",
+   "power": 95600000,
+   "rank": "R2",
+   "furnace": "fc1",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "UAP GREYS",
+   "power": 116600000,
+   "rank": "R2",
+   "furnace": "fc1",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SHERE KHAN JR",
+   "power": 31700000,
+   "rank": "R2",
+   "furnace": "f27",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "像是條理",
+   "power": 69400000,
+   "rank": "R2",
+   "furnace": "f30",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "guacasalsa",
+   "power": 197600000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mahvie",
+   "power": 142400000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lily blue",
+   "power": 112600000,
+   "rank": "R1",
+   "furnace": "fc2",
+   "alliance": "Aliens",
+   "allianceTag": "UFO",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "藍莓 BBerry",
+   "power": 342100000,
+   "rank": "R5",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "卡卡～kaka",
+   "power": 460600000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "是RJ",
+   "power": 438900000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Zephon",
+   "power": 426600000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "陳平安 Ping an",
+   "power": 411800000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "肛莖戀精速濕DK",
+   "power": 408300000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ZeroTseng",
+   "power": 388100000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Hsuudbgddkjx",
+   "power": 379000000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "璽玥Moon",
+   "power": 347300000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SHooWԋ",
+   "power": 344800000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "就是我",
+   "power": 364800000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "迷你藍莓 Min Bb",
+   "power": 53700000,
+   "rank": "R4",
+   "furnace": "fc2",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "RJJJ",
+   "power": 139900000,
+   "rank": "R4",
+   "furnace": "fc4",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "山城大支老",
+   "power": 460200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "唐伯虎點秋香Weiss",
+   "power": 383500000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "fighting 1234",
+   "power": 370300000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "甲骨文Oracle",
+   "power": 366100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Dharma 咖啡",
+   "power": 350300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "陀螺鬥士DK",
+   "power": 344500000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "開封優格保七天",
+   "power": 342100000,
+   "rank": "R3",
+   "furnace": "fc8",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "打熊打熊123",
+   "power": 341200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "doma",
+   "power": 338900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "小建的天空",
+   "power": 338200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "頹廢007 ˆ__ˆ_}",
+   "power": 336900000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "飛舞凋零",
+   "power": 336800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "憂鬱blue_0o0_",
+   "power": 334500000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "小布袋",
+   "power": 334100000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "NiNi",
+   "power": 334000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "櫻桃蘿蔔",
+   "power": 324400000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "壞的很厲害",
+   "power": 298200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MaxiKing69",
+   "power": 286100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "夜 晴",
+   "power": 286000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "肥達達",
+   "power": 285700000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "比格飄月",
+   "power": 277000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ALEKS",
+   "power": 266200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "沙特Shātè",
+   "power": 264800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Хама",
+   "power": 256000000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "O阿威O",
+   "power": 254400000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "神機 隋酪",
+   "power": 217100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "天之嬌女",
+   "power": 208800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "浮雲子",
+   "power": 434200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "CrownLand",
+   "power": 298500000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Saadia _aboali",
+   "power": 190600000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "calippone69",
+   "power": 317300000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "白白88",
+   "power": 281800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Dou 豆仔",
+   "power": 235500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "gh188",
+   "power": 291500000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Khans@",
+   "power": 172100000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Adox Thea",
+   "power": 310400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Tesric",
+   "power": 328400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "James xiaohe",
+   "power": 288600000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "愛喝紅茶去冰微糖的帥哥昇HS",
+   "power": 201200000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "rider kain",
+   "power": 96400000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "山林老木",
+   "power": 287400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Alexx",
+   "power": 302000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "男精紅姐",
+   "power": 179100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "於 一",
+   "power": 287300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Atticus",
+   "power": 283300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "jodry",
+   "power": 204400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "RollingPaper",
+   "power": 245200000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "阿良很猛",
+   "power": 224700000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mini Do",
+   "power": 278100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "咪泥nii",
+   "power": 261100000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "雲舞飛揚",
+   "power": 426800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "寒風刺骨",
+   "power": 240100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "αgᑫᒎnesıαᵀᵀᶜ",
+   "power": 195200000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Quokka",
+   "power": 212200000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mini zzz",
+   "power": 175300000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "小小凱",
+   "power": 8500000,
+   "rank": "R2",
+   "furnace": "f21",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Skorpion",
+   "power": 251800000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "bdu",
+   "power": 155800000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SLAYR",
+   "power": 67300000,
+   "rank": "R2",
+   "furnace": "f28",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Hzy",
+   "power": 49800000,
+   "rank": "R2",
+   "furnace": "f28",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Snails",
+   "power": 171800000,
+   "rank": "R2",
+   "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Frank Besson",
+   "power": 127400000,
+   "rank": "R2",
+   "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Sassyy",
+   "power": 144400000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Titan",
+   "power": 27800000,
+   "rank": "R2",
+   "furnace": "f27",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "開心遊玩就是帥",
+   "power": 132300000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Welwo",
+   "power": 151000000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MOAZAM 123",
+   "power": 104600000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MSHassan",
+   "power": 119400000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "小羽兒",
+   "power": 99700000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "GGININDER7899",
+   "power": 148300000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Raeda sh",
+   "power": 165200000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "KobeTseng",
+   "power": 176800000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Grizzlys",
+   "power": 17500000,
+   "rank": "R1",
+   "furnace": "f25",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Chaos",
+   "power": 303700000,
+   "rank": "R5",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Eddie",
+   "power": 518600000,
+   "rank": "R4",
+   "furnace": "fc8",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Alf",
+   "power": 332300000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Klaus",
+   "power": 319000000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Artemis Frost",
+   "power": 318700000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Matty H",
+   "power": 276700000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Nar",
+   "power": 241000000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "TMB",
+   "power": 295300000,
+   "rank": "R4",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "eneny",
+   "power": 338000000,
+   "rank": "R4",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "R¥NO",
+   "power": 210700000,
+   "rank": "R4",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Eclipse ⚙",
+   "power": 424500000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "FedeC",
+   "power": 406300000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kloss",
+   "power": 383800000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MBG",
+   "power": 383400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Rochus0815",
+   "power": 346300000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Hassikkome",
+   "power": 335900000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "겨울 winter\"✳",
+   "power": 331200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "Edo",
+   "power": 324000000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kookie",
+   "power": 299000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "elvs",
+   "power": 297300000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kitto Katto",
+   "power": 270500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "PinaPie",
+   "power": 268900000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kate",
+   "power": 267200000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Hunger4More",
+   "power": 265300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Cui",
+   "power": 252300000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "°°CABRILIK°°",
+   "power": 240200000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "itzdk420",
+   "power": 240100000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Yséra",
+   "power": 228700000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Old_Viking",
+   "power": 222400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "#촌닭#",
+   "power": 212700000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Hou :o",
+   "power": 197400000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Chu",
+   "power": 152500000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Tengen Uzui",
+   "power": 99900000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Stesha",
+   "power": 236300000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "I'm EM",
+   "power": 176200000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Dash",
+   "power": 116500000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Xena",
+   "power": 271800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "hahahahahahahaha",
+   "power": 139100000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Bernard",
+   "power": 70100000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "lord515940382",
+   "power": 135000000,
+   "rank": "R3",
+   "furnace": "fc1",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Lavine121",
+   "power": 156800000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "gusdyds7",
+   "power": 160700000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ania 2000",
+   "power": 238300000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "swani",
+   "power": 140700000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "jxjsjxjxj",
+   "power": 200200000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "GaTTo",
+   "power": 267000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Darkzeeko",
+   "power": 277800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "AlexWinter",
+   "power": 291200000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "SaNdRa",
+   "power": 213200000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "dul",
+   "power": 152900000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "JBV",
+   "power": 208800000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "tay",
+   "power": 238600000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mrs dirty time;P",
+   "power": 138000000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Thiago Casarini",
+   "power": 199500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "ItsAllemao",
+   "power": 237100000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Jelly",
+   "power": 241400000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Andrez",
+   "power": 338000000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Pipeline",
+   "power": 343100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Mariah",
+   "power": 186600000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "MaffiaMuis",
+   "power": 201100000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LordTheGreatest",
+   "power": 320800000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "winter",
+   "power": 136400000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "blau",
+   "power": 158800000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "YϾM",
+   "power": 128500000,
+   "rank": "R3",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "kr1dm",
+   "power": 311400000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "乙月丨ル",
+   "power": 207500000,
+   "rank": "R3",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "CrazyHorse",
+   "power": 305900000,
+   "rank": "R3",
+   "furnace": "fc7",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Dziadek",
+   "power": 334100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "huam41",
+   "power": 263100000,
+   "rank": "R3",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Hakuji_Akaza",
+   "power": 140200000,
+   "rank": "R3",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "FMCmini",
+   "power": 118800000,
+   "rank": "R3",
+   "furnace": "fc2",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Farm to the end",
+   "power": 71400000,
+   "rank": "R3",
+   "furnace": "f30",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "North",
+   "power": 2700000,
+   "rank": "R3",
+   "furnace": "f18",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Андрюха",
+   "power": 139500000,
+   "rank": "R2",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "犬醉雨",
+   "power": 180300000,
+   "rank": "R2",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "gvancela",
+   "power": 119800000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kronik",
+   "power": 177500000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Sumqayit",
+   "power": 143400000,
+   "rank": "R2",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Ferfecir",
+   "power": 262800000,
+   "rank": "R2",
+   "furnace": "fc6",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "°ᵒᵉ~Bʋɳɳყ~ᵉᵒ°",
+   "power": 62500000,
+   "rank": "R2",
+   "furnace": "f30",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08",
+   "nameUncertain": true
+  },
+  {
+   "chiefName": "NEMO!",
+   "power": 100900000,
+   "rank": "R2",
+   "furnace": "fc1",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Stormwind",
+   "power": 109300000,
+   "rank": "R2",
+   "furnace": "fc2",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "mingky2",
+   "power": 67600000,
+   "rank": "R2",
+   "furnace": "f30",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Chihuahua",
+   "power": 88700000,
+   "rank": "R2",
+   "furnace": "fc2",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "LordOfSurvival",
+   "power": 242800000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Rocket",
+   "power": 195200000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Türk Devleti",
+   "power": 164200000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Kev",
+   "power": 168400000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "كتيبه",
+   "power": 102100000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Julie28",
+   "power": 200600000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Cream Soda",
+   "power": 125100000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "bettychabz",
+   "power": 254600000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Bichon",
+   "power": 237500000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Poco Loco",
+   "power": 116000000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Владика",
+   "power": 169600000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "NiceBallsSis",
+   "power": 183300000,
+   "rank": "R1",
+   "furnace": "fc5",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Miha",
+   "power": 174200000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Charlotte H",
+   "power": 147000000,
+   "rank": "R1",
+   "furnace": "fc4",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  },
+  {
+   "chiefName": "Owzer",
+   "power": 151400000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "BeechesOfChaos",
+   "allianceTag": "SIN",
+   "state": "3178",
+   "date": "2026.08.08"
+  }
+ ]
+}
