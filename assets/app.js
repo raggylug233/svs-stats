@@ -46,28 +46,40 @@
     sortKey: "power",
     sortDir: -1,
     q: "",
-    alliance: ALL,
-    rank: ALL,
+    picked: new Set(), // alliance keys currently shown
+    ranks: new Set(RANKS), // ranks currently shown
     furnace: ALL,
   };
 
   /* ---------- data helpers ---------- */
 
-  const scopedPlayers = () =>
-    state.snapshot.players.filter(
-      (p) => state.stateFilter === ALL || p.state === state.stateFilter
-    );
-
+  // Everything in the chosen state, before the alliance/rank pickers apply.
   const scopedAlliances = () =>
     state.snapshot.alliances.filter(
       (a) => state.stateFilter === ALL || a.state === state.stateFilter
     );
 
+  // What the charts and tables actually draw.
+  const activeAlliances = () => scopedAlliances().filter((a) => state.picked.has(a.key));
+
+  const activePlayers = () =>
+    state.snapshot.players.filter(
+      (p) => state.picked.has(`${p.state}_${p.allianceTag}`) && state.ranks.has(p.rank)
+    );
+
+  const selectAllInScope = () => {
+    state.picked = new Set(scopedAlliances().map((a) => a.key));
+  };
+
   /* ---------- tiles ---------- */
 
   function renderTiles() {
-    const players = scopedPlayers();
-    const alliances = scopedAlliances();
+    const players = activePlayers();
+    const alliances = activeAlliances();
+    if (!players.length) {
+      $("#tiles").replaceChildren();
+      return;
+    }
     const total = players.reduce((s, p) => s + p.power, 0);
     const top = players.reduce((m, p) => (p.power > m.power ? p : m), players[0]);
     const fc = players.filter((p) => p.furnace.startsWith("fc")).length;
@@ -94,8 +106,10 @@
   /* ---------- legend ---------- */
 
   function renderLegend() {
+    // Only the ranks actually drawn, so the legend never promises a colour
+    // that isn't on screen.
     $("#legend").replaceChildren(
-      ...RANKS.map((r) => {
+      ...RANKS.filter((r) => state.ranks.has(r)).map((r) => {
         const s = el("span", { role: "listitem" });
         s.appendChild(el("i", { style: `background:${COLORS[r]}` }));
         s.appendChild(document.createTextNode(r));
@@ -126,9 +140,23 @@
    * every bucket position present in every chart, one shared y max.
    */
   function renderCharts() {
-    const players = scopedPlayers();
-    const alliances = scopedAlliances();
+    const players = activePlayers();
+    const alliances = activeAlliances();
     const host = $("#charts");
+    const drawnRanks = RANKS.filter((r) => state.ranks.has(r));
+
+    if (!players.length) {
+      $("#chart-sub").textContent = "";
+      host.replaceChildren(
+        el("p", {
+          class: "empty",
+          text: alliances.length
+            ? "No ranks selected — pick at least one rank."
+            : "No alliances selected — pick at least one alliance.",
+        })
+      );
+      return;
+    }
 
     const bucketOf = (p) => Math.ceil(p.power / BUCKET) * BUCKET;
     const maxBucket = players.reduce((m, p) => Math.max(m, bucketOf(p)), BUCKET);
@@ -154,7 +182,7 @@
     let yMax = 0;
     for (const byBucket of cell.values())
       for (const slot of byBucket.values())
-        yMax = Math.max(yMax, RANKS.reduce((s, r) => s + (slot[r]?.power || 0), 0));
+        yMax = Math.max(yMax, drawnRanks.reduce((s, r) => s + (slot[r]?.power || 0), 0));
     yMax = Math.ceil(yMax / 50_000_000) * 50_000_000 || 50_000_000;
 
     const scopeLabel = state.stateFilter === ALL ? "All states" : `State ${state.stateFilter}`;
@@ -209,7 +237,7 @@
         xOrder.forEach((b, i) => {
           const slot = cell.get(a.key).get(b) || {};
           let acc = 0;
-          RANKS.forEach((r) => {
+          drawnRanks.forEach((r) => {
             const d = slot[r];
             if (!d || d.power <= 0) return;
             const yTop = y(acc + d.power);
@@ -260,13 +288,14 @@
   /* ---------- alliance table ---------- */
 
   function renderAllianceTable() {
-    const players = scopedPlayers();
-    const rows = scopedAlliances()
+    const players = activePlayers();
+    const rows = activeAlliances()
       .map((a) => {
         const mine = players.filter((p) => p.state === a.state && p.allianceTag === a.tag);
         const total = mine.reduce((s, p) => s + p.power, 0);
         return { a, mine, total };
       })
+      .filter(({ mine }) => mine.length)
       .sort((x, y) => y.total - x.total);
 
     $("#alliance-table tbody").replaceChildren(
@@ -280,9 +309,11 @@
         tr.appendChild(
           el("td", { class: "num", text: fmtPower(Math.max(...mine.map((p) => p.power))) })
         );
+        // Counts reflect the active rank filter, not the full roster, so the
+        // row always adds up to the Members column.
         for (const r of RANKS) {
           const td = el("td", { class: "num" });
-          const n = a.rankCounts[r] || 0;
+          const n = mine.filter((p) => p.rank === r).length;
           if (n) {
             const pill = el("span", { class: "pill", text: String(n) });
             pill.style.background = COLORS[r];
@@ -299,10 +330,9 @@
 
   function filteredPlayers() {
     const q = state.q.trim().toLowerCase();
-    return scopedPlayers().filter((p) => {
+    // Alliance and rank are already applied by activePlayers().
+    return activePlayers().filter((p) => {
       if (q && !p.chiefName.toLowerCase().includes(q)) return false;
-      if (state.alliance !== ALL && `${p.state}_${p.allianceTag}` !== state.alliance) return false;
-      if (state.rank !== ALL && p.rank !== state.rank) return false;
       if (state.furnace !== ALL) {
         const kind = p.furnace.startsWith("fc") ? "fc" : "f";
         if (kind !== state.furnace) return false;
@@ -337,7 +367,7 @@
   function renderPlayerTable() {
     const list = sortPlayers(filteredPlayers());
     $("#player-count").textContent =
-      `${fmtInt(list.length)} of ${fmtInt(scopedPlayers().length)} chiefs`;
+      `${fmtInt(list.length)} of ${fmtInt(activePlayers().length)} shown \u00b7 ${fmtInt(state.snapshot.players.length)} in snapshot`;
 
     $("#player-table tbody").replaceChildren(
       ...list.map((p, i) => {
@@ -380,6 +410,82 @@
     return o;
   }
 
+  /** Alliance checkbox list, grouped by state, with a per-state toggle. */
+  function buildAlliancePicker() {
+    const groups = $("#ms-alliance .ms-groups");
+    const byState = new Map();
+    for (const a of scopedAlliances()) {
+      if (!byState.has(a.state)) byState.set(a.state, []);
+      byState.get(a.state).push(a);
+    }
+
+    groups.replaceChildren(
+      ...[...byState.entries()].map(([st, list]) => {
+        const g = el("div", { class: "ms-group" });
+
+        const head = el("label", { class: "ms-opt ms-state" });
+        const headBox = document.createElement("input");
+        headBox.type = "checkbox";
+        headBox.checked = list.every((a) => state.picked.has(a.key));
+        headBox.indeterminate =
+          !headBox.checked && list.some((a) => state.picked.has(a.key));
+        headBox.addEventListener("change", () => {
+          for (const a of list) {
+            if (headBox.checked) state.picked.add(a.key);
+            else state.picked.delete(a.key);
+          }
+          buildAlliancePicker();
+          renderAll();
+        });
+        head.append(headBox, `State ${st}`);
+        g.appendChild(head);
+
+        for (const a of list) {
+          const row = el("label", { class: "ms-opt" });
+          const box = document.createElement("input");
+          box.type = "checkbox";
+          box.checked = state.picked.has(a.key);
+          box.addEventListener("change", () => {
+            if (box.checked) state.picked.add(a.key);
+            else state.picked.delete(a.key);
+            buildAlliancePicker();
+            renderAll();
+          });
+          row.append(box);
+          row.appendChild(el("span", { class: "tag", text: `[${a.tag}]` }));
+          row.appendChild(el("span", { text: a.name }));
+          row.appendChild(el("span", { class: "n", text: String(a.memberCount) }));
+          g.appendChild(row);
+        }
+        return g;
+      })
+    );
+
+    const total = scopedAlliances().length;
+    const n = activeAlliances().length;
+    $("#ms-alliance-value").textContent =
+      n === total ? `All ${total}` : n === 0 ? "None" : `${n} of ${total}`;
+  }
+
+  /** Rank toggles — five values, so pills beat a dropdown. */
+  function buildRankPills() {
+    $("#rank-pills").replaceChildren(
+      ...RANKS.map((r) => {
+        const on = state.ranks.has(r);
+        const b = el("button", { type: "button", text: r });
+        b.setAttribute("aria-pressed", String(on));
+        if (on) b.style.background = COLORS[r];
+        b.addEventListener("click", () => {
+          if (state.ranks.has(r)) state.ranks.delete(r);
+          else state.ranks.add(r);
+          buildRankPills();
+          renderAll();
+        });
+        return b;
+      })
+    );
+  }
+
   function buildFilters() {
     const stateSel = $("#sel-state");
     stateSel.replaceChildren(
@@ -388,16 +494,8 @@
     );
     stateSel.value = state.stateFilter;
 
-    const aSel = $("#sel-alliance");
-    aSel.replaceChildren(
-      option(ALL, "All alliances"),
-      ...scopedAlliances().map((a) => option(a.key, `[${a.tag}] ${a.name}`))
-    );
-    aSel.value = ALL;
-    state.alliance = ALL;
-
-    $("#sel-rank").replaceChildren(option(ALL, "All ranks"), ...RANKS.map((r) => option(r, r)));
-    $("#sel-rank").value = state.rank;
+    buildAlliancePicker();
+    buildRankPills();
 
     $("#sel-furnace").replaceChildren(
       option(ALL, "All furnaces"),
@@ -418,8 +516,11 @@
   function wire() {
     $("#sel-date").addEventListener("change", (e) => loadSnapshot(e.target.value));
 
+    // Changing state re-scopes the alliance picker; select everything in the
+    // new scope so the view is never mysteriously empty.
     $("#sel-state").addEventListener("change", (e) => {
       state.stateFilter = e.target.value;
+      selectAllInScope();
       buildFilters();
       renderAll();
     });
@@ -429,19 +530,45 @@
       renderPlayerTable();
     });
 
-    for (const [sel, key] of [["#sel-alliance", "alliance"], ["#sel-rank", "rank"], ["#sel-furnace", "furnace"]]) {
-      $(sel).addEventListener("change", (e) => {
-        state[key] = e.target.value;
-        renderPlayerTable();
-      });
-    }
+    $("#sel-furnace").addEventListener("change", (e) => {
+      state.furnace = e.target.value;
+      renderPlayerTable();
+    });
+
+    // alliance dropdown open/close
+    const ms = $("#ms-alliance");
+    const msBtn = ms.querySelector(".ms-btn");
+    const msPanel = ms.querySelector(".ms-panel");
+    const setOpen = (open) => {
+      msPanel.hidden = !open;
+      msBtn.setAttribute("aria-expanded", String(open));
+    };
+    msBtn.addEventListener("click", () => setOpen(msPanel.hidden));
+    ms.querySelector('[data-act="all"]').addEventListener("click", () => {
+      selectAllInScope();
+      buildAlliancePicker();
+      renderAll();
+    });
+    ms.querySelector('[data-act="none"]').addEventListener("click", () => {
+      state.picked.clear();
+      buildAlliancePicker();
+      renderAll();
+    });
+    document.addEventListener("click", (e) => {
+      if (!ms.contains(e.target)) setOpen(false);
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") setOpen(false);
+    });
 
     $("#reset").addEventListener("click", () => {
       state.q = "";
-      state.alliance = state.rank = state.furnace = ALL;
+      state.furnace = ALL;
+      state.ranks = new Set(RANKS);
+      selectAllInScope();
       $("#q").value = "";
       buildFilters();
-      renderPlayerTable();
+      renderAll();
     });
 
     document.querySelectorAll("#player-table th[data-sort]").forEach((th) => {
@@ -478,6 +605,7 @@
     const res = await fetch("data/" + entry.file);
     state.snapshot = await res.json();
     if (!state.snapshot.states.includes(state.stateFilter)) state.stateFilter = ALL;
+    selectAllInScope();
     buildFilters();
     renderAll();
   }

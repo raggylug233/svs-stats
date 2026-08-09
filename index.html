@@ -28,6 +28,30 @@
 </header>
 
 <main>
+  <section class="filterbar" aria-label="Global filters">
+    <div class="ms" id="ms-alliance">
+      <span class="ms-label" id="ms-alliance-label">Alliances</span>
+      <button type="button" class="ms-btn" aria-expanded="false" aria-haspopup="true"
+              aria-labelledby="ms-alliance-label ms-alliance-value">
+        <span id="ms-alliance-value">All</span><span class="caret">&#9662;</span>
+      </button>
+      <div class="ms-panel" hidden>
+        <div class="ms-actions">
+          <button type="button" data-act="all">Select all</button>
+          <button type="button" data-act="none">Clear</button>
+        </div>
+        <div class="ms-groups"></div>
+      </div>
+    </div>
+
+    <div class="rankpick">
+      <span class="ms-label" id="rank-label">Ranks</span>
+      <div class="pills" id="rank-pills" role="group" aria-labelledby="rank-label"></div>
+    </div>
+
+    <p class="filterbar-note">Applies to the charts and both tables.</p>
+  </section>
+
   <section class="tiles" id="tiles" aria-label="Summary"></section>
 
   <section class="panel">
@@ -65,10 +89,8 @@
     </div>
     <div class="filters">
       <input type="search" id="q" placeholder="Search chief name&hellip;" aria-label="Search chief name">
-      <select id="sel-alliance" aria-label="Filter by alliance"></select>
-      <select id="sel-rank" aria-label="Filter by rank"></select>
       <select id="sel-furnace" aria-label="Filter by furnace"></select>
-      <button id="reset" type="button">Reset</button>
+      <button id="reset" type="button">Reset all filters</button>
     </div>
     <div class="table-scroll">
       <table id="player-table" class="grid">
