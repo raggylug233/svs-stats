@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SvS Prep — Power Rankings</title>
 <meta name="description" content="Whiteout Survival state-vs-state power rankings by alliance, rank and furnace.">
 <link rel="stylesheet" href="assets/styles.css">
@@ -49,6 +49,14 @@
       <div class="pills" id="rank-pills" role="group" aria-labelledby="rank-label"></div>
     </div>
 
+    <div class="chartmode">
+      <span class="ms-label" id="mode-label">Charts</span>
+      <select id="sel-chartmode" aria-labelledby="mode-label">
+        <option value="alliance">One per alliance</option>
+        <option value="state">One per state (aggregate)</option>
+      </select>
+    </div>
+
     <p class="filterbar-note">Applies to the charts and both tables.</p>
   </section>
 
@@ -60,6 +68,7 @@
       <p id="chart-sub" class="panel-sub"></p>
     </div>
     <div class="legend" id="legend" role="list" aria-label="Rank colours"></div>
+    <p class="scroll-hint">Swipe a chart sideways to reach every bucket &rarr;</p>
     <div id="charts" class="charts"></div>
   </section>
 

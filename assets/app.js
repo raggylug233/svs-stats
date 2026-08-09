@@ -47,6 +47,7 @@
     sortDir: -1,
     q: "",
     picked: new Set(), // alliance keys currently shown
+    chartMode: "alliance", // "alliance" | "state" (aggregate)
     ranks: new Set(RANKS), // ranks currently shown
     furnace: ALL,
   };
@@ -126,12 +127,40 @@
     const t = tip();
     t.innerHTML = html;
     t.classList.add("on");
-    t.style.left = evt.clientX + "px";
-    t.style.top = evt.clientY + "px";
+    // Clamp inside the viewport: a touch near an edge would otherwise put the
+    // tooltip half off-screen, where a mouse cursor never goes.
+    t.style.left = "0px";
+    t.style.top = "0px";
+    const w = t.offsetWidth;
+    const h = t.offsetHeight;
+    const pad = 8;
+    const x = Math.min(Math.max(evt.clientX, w / 2 + pad), window.innerWidth - w / 2 - pad);
+    const y = Math.max(evt.clientY, h + pad + 10);
+    t.style.left = x + "px";
+    t.style.top = y + "px";
   }
 
   function hideTip() {
     tip().classList.remove("on");
+  }
+
+  /** Pointer events cover mouse and touch; on touch a tap opens the tooltip
+   *  and the next tap elsewhere dismisses it. */
+  function bindTip(node, html) {
+    node.addEventListener("pointerenter", (e) => {
+      if (e.pointerType === "mouse") showTip(e, html);
+    });
+    node.addEventListener("pointermove", (e) => {
+      if (e.pointerType === "mouse") showTip(e, html);
+    });
+    node.addEventListener("pointerleave", (e) => {
+      if (e.pointerType === "mouse") hideTip();
+    });
+    node.addEventListener("pointerdown", (e) => {
+      if (e.pointerType === "mouse") return;
+      e.stopPropagation();
+      showTip(e, html);
+    });
   }
 
   /**
@@ -164,39 +193,54 @@
     for (let b = BUCKET; b <= maxBucket; b += BUCKET) buckets.push(b);
     const xOrder = [...buckets].reverse(); // largest -> smallest
 
-    // cell[allianceKey][bucket][rank] = {power, count}
-    const cell = new Map();
-    for (const a of alliances) cell.set(a.key, new Map());
+    // A "unit" is one chart: either a single alliance or a whole state's
+    // alliances aggregated together.
+    const byState = state.chartMode === "state";
+    const units = new Map();
+    const unitOf = (p) =>
+      byState ? p.state : `${p.state}_${p.allianceTag}`;
+
+    for (const a of alliances) {
+      const id = byState ? a.state : a.key;
+      if (!units.has(id))
+        units.set(id, {
+          id,
+          state: a.state,
+          title: byState ? `State ${a.state}` : `${a.tag} — ${a.name}`,
+          sub: byState ? [] : `State ${a.state}`,
+          cells: new Map(),
+          total: 0,
+        });
+      if (byState) units.get(id).sub.push(a.tag);
+    }
+
     for (const p of players) {
-      const key = `${p.state}_${p.allianceTag}`;
-      if (!cell.has(key)) continue;
-      const byBucket = cell.get(key);
+      const u = units.get(unitOf(p));
+      if (!u) continue;
       const b = bucketOf(p);
-      if (!byBucket.has(b)) byBucket.set(b, {});
-      const slot = byBucket.get(b);
+      if (!u.cells.has(b)) u.cells.set(b, {});
+      const slot = u.cells.get(b);
       slot[p.rank] = slot[p.rank] || { power: 0, count: 0 };
       slot[p.rank].power += p.power;
       slot[p.rank].count += 1;
+      u.total += p.power;
     }
 
+    // chart.md: one shared Y max across every chart on screen, rounded up to
+    // the next 50M. Aggregating by state raises it, which is why it is
+    // recomputed per view rather than baked in.
     let yMax = 0;
-    for (const byBucket of cell.values())
-      for (const slot of byBucket.values())
+    for (const u of units.values())
+      for (const slot of u.cells.values())
         yMax = Math.max(yMax, drawnRanks.reduce((s, r) => s + (slot[r]?.power || 0), 0));
     yMax = Math.ceil(yMax / 50_000_000) * 50_000_000 || 50_000_000;
 
     const scopeLabel = state.stateFilter === ALL ? "All states" : `State ${state.stateFilter}`;
     $("#chart-sub").textContent =
-      `${scopeLabel} — power distribution by 25M buckets • shared Y max ${fmtB(yMax)}`;
+      `${scopeLabel} — ${byState ? "one chart per state" : "one chart per alliance"}, ` +
+      `25M buckets • shared Y max ${fmtB(yMax)}`;
 
-    const totals = alliances
-      .map((a) => ({
-        a,
-        total: players
-          .filter((p) => p.state === a.state && p.allianceTag === a.tag)
-          .reduce((s, p) => s + p.power, 0),
-      }))
-      .sort((x, y) => y.total - x.total);
+    const ordered = [...units.values()].sort((x, y) => y.total - x.total);
 
     // geometry
     const W = 1000, H = 300;
@@ -207,12 +251,12 @@
     const barW = band * 0.86;
     const y = (v) => M.top + plotH - (v / yMax) * plotH;
 
-    host.replaceChildren(
-      ...totals.map(({ a, total }) => {
+    const drawUnit = (u) => {
+      {
         const svg = el("svg", {
           viewBox: `0 0 ${W} ${H}`,
           role: "img",
-          "aria-label": `${a.tag} power distribution by 25M bucket, stacked by rank`,
+          "aria-label": `${u.title} power distribution by 25M bucket, stacked by rank`,
         });
 
         // horizontal grid + y ticks
@@ -235,7 +279,7 @@
 
         // bars
         xOrder.forEach((b, i) => {
-          const slot = cell.get(a.key).get(b) || {};
+          const slot = u.cells.get(b) || {};
           let acc = 0;
           drawnRanks.forEach((r) => {
             const d = slot[r];
@@ -255,9 +299,8 @@
             const label =
               `<span class="t-rank" style="color:${COLORS[r]}">${r}</span> · ${fmtM(b)} bucket<br>` +
               `${fmtPower(d.power)} from ${d.count} chief${d.count === 1 ? "" : "s"}<br>` +
-              `<span class="t-sub">${a.tag} — ${a.name}</span>`;
-            rect.addEventListener("mousemove", (e) => showTip(e, label));
-            rect.addEventListener("mouseleave", hideTip);
+              `<span class="t-sub">${u.title}</span>`;
+            bindTip(rect, label);
             rect.appendChild(el("title", { text: `${r} ${fmtM(b)}: ${fmtPower(d.power)} (${d.count})` }));
             svg.appendChild(rect);
             acc += d.power;
@@ -278,10 +321,48 @@
         });
 
         const cap = el("figcaption");
-        cap.append(`${a.tag} — ${a.name} · State ${a.state} — Total: `);
-        cap.appendChild(el("b", { text: fmtB(total) }));
-        return el("figure", { class: "chart" }, [cap, svg]);
-      })
+        const detail = Array.isArray(u.sub)
+          ? `${u.sub.length} alliance${u.sub.length === 1 ? "" : "s"}: ${u.sub.join(", ")}`
+          : u.sub;
+        cap.append(`${u.title} — Total: `);
+        cap.appendChild(el("b", { text: fmtB(u.total) }));
+        cap.appendChild(el("span", { class: "cap-sub", text: detail }));
+
+        // A phone can't show 27 buckets legibly at viewport width, so the plot
+        // gets its own horizontal scroller with a floor on how narrow a bucket
+        // may become. On desktop it simply fills the panel.
+        const scroller = el("div", { class: "chart-scroll" });
+        svg.style.minWidth = Math.max(560, xOrder.length * 32 + M.left + M.right) + "px";
+        scroller.appendChild(svg);
+        return el("figure", { class: "chart" }, [cap, scroller]);
+      }
+    };
+
+    // In per-alliance view across multiple states, band the charts under a
+    // heading per state so it is obvious which state a bar belongs to.
+    const statesShown = [...new Set(ordered.map((u) => u.state))];
+    if (byState || statesShown.length < 2) {
+      host.replaceChildren(...ordered.map(drawUnit));
+      return;
+    }
+
+    const stateTotal = (st) =>
+      ordered.filter((u) => u.state === st).reduce((s, u) => s + u.total, 0);
+
+    host.replaceChildren(
+      ...statesShown
+        .sort((a, b) => stateTotal(b) - stateTotal(a))
+        .map((st) => {
+          const mine = ordered.filter((u) => u.state === st);
+          const head = el("h3", { class: "state-head" });
+          head.append(`State ${st}`);
+          head.appendChild(
+            el("span", {
+              text: `${mine.length} alliance${mine.length === 1 ? "" : "s"} · ${fmtB(stateTotal(st))}`,
+            })
+          );
+          return el("section", { class: "state-group" }, [head, ...mine.map(drawUnit)]);
+        })
     );
   }
 
@@ -503,6 +584,7 @@
       option("f", "Regular (f)")
     );
     $("#sel-furnace").value = state.furnace;
+    $("#sel-chartmode").value = state.chartMode;
   }
 
   function renderAll() {
@@ -533,6 +615,11 @@
     $("#sel-furnace").addEventListener("change", (e) => {
       state.furnace = e.target.value;
       renderPlayerTable();
+    });
+
+    $("#sel-chartmode").addEventListener("change", (e) => {
+      state.chartMode = e.target.value;
+      renderCharts();
     });
 
     // alliance dropdown open/close
@@ -596,6 +683,8 @@
     });
 
     window.addEventListener("scroll", hideTip, { passive: true });
+    // a tap anywhere off a bar dismisses a touch-opened tooltip
+    document.addEventListener("pointerdown", hideTip);
   }
 
   /* ---------- boot ---------- */

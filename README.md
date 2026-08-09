@@ -82,8 +82,19 @@ descending x-axis, bars stacked by rank R5→R1, one chart per alliance sorted b
 total power, a single shared y-max, dark neon styling. It is implemented twice
 from the same JSON:
 
-- **interactively on the site**, with hover tooltips and a state selector
+- **interactively on the site**, with hover/tap tooltips and a state selector
 - **as a PNG**: `.venv/bin/python tools/render_chart.py 2026.08.08 3178`
+
+On the site the charts have two views, chosen with the **Charts** control:
+
+- *One per alliance* — the chart.md layout, banded under a heading per state
+  when more than one state is in scope
+- *One per state (aggregate)* — every selected alliance in a state combined
+  into a single chart, still stacked by rank
+
+The shared y-max is recomputed per view, since aggregating raises it.
+Alliance and rank pickers are multi-select and drive the charts and both
+tables together.
 
 matplotlib ships no CJK font, so the PNG falls back to the alliance tag alone
 for non-ASCII alliance names; the web chart shows them in full.
