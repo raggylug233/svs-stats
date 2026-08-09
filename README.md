@@ -22,9 +22,13 @@ tools/
   transcripts/          the original hand-verified transcription, one TSV per alliance
   build_snapshot.py     transcripts -> data/snapshots/<date>.json
   render_chart.py       data JSON -> charts/<date>_<state>.png
-screenshots/<date>/<state>/   raw source images, kept for re-extraction
+screenshots/<date>/<state>/   raw source images — gitignored, local only
 chart.md                the power-distribution chart specification
 ```
+
+Screenshots are deliberately **not** committed: each batch is ~78 MB and git
+history cannot be pruned without a rewrite. They live on disk so an extraction
+can be improved later; the committed JSON is what everything actually reads.
 
 The **state is the folder name** the screenshots live in (e.g. `3178`).
 

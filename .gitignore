@@ -1,7 +1,10 @@
-# Accidental iOS "File Provider Storage" sync dump — unrelated personal files
-# (SSH key, passport/insurance PDFs, invoices). NEVER commit: this repo is
-# published to GitHub Pages. Recommend deleting it or moving it out of the repo.
-data/2026.08.08/
+# Raw screenshots are kept on disk for re-extraction but stay out of git:
+# each batch is ~78 MB and git history can't be pruned without a rewrite.
+# The extracted JSON in data/ is the source of truth and IS committed.
+screenshots/
+
+# Guard against an iOS "File Provider Storage" sync ever dumping unrelated
+# personal files into this tree again — this repo publishes to GitHub Pages.
 **/File Provider Storage/
 
 .venv/
