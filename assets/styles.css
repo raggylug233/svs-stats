@@ -357,12 +357,10 @@ main > * { min-width: 0; }
 .fc { color: var(--r1); font-weight: 650; }
 .f  { color: var(--ink-3); }
 
-.flag { color: var(--r2); cursor: help; }
 
 .filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
 .filters input[type=search] { min-width: 210px; flex: 1 1 210px; }
 
-.footnote { color: var(--ink-3); font-size: 12.5px; margin: 12px 0 0; }
 
 code { background: var(--surface-2); padding: 1px 5px; border-radius: 4px; font-size: .92em; }
 

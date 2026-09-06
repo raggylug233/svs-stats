@@ -486,10 +486,6 @@
         const nameTd = el("td");
         nameTd.textContent = p.chiefName || "(blank in game)";
         if (!p.chiefName) nameTd.style.color = "var(--ink-3)";
-        if (p.nameUncertain) {
-          const f = el("span", { class: "flag", title: "Decorative glyphs — verify spelling", text: " ⚠" });
-          nameTd.appendChild(f);
-        }
         tr.appendChild(nameTd);
 
         tr.appendChild(el("td", { class: "num", text: fmtPower(p.power) }));
