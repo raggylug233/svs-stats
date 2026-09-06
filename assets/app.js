@@ -13,6 +13,28 @@
   const BUCKET = 25_000_000;
   const ALL = "__all__";
 
+  // The two things a chart can be about. Power is on every player; the
+  // Labyrinth score is only on those who made their state's top 100, so
+  // anything drawing it has to say how many players it actually covers.
+  const METRICS = {
+    power: {
+      label: "Power",
+      of: (p) => p.power,
+      bucket: 25_000_000,
+      bucketWord: "25M",
+      yStep: 50_000_000,
+      fromZero: true, // chart.md: the x-axis always runs down to the 25M bucket
+    },
+    labyrinth: {
+      label: "Labyrinth",
+      of: (p) => (p.labyrinth == null ? null : p.labyrinth),
+      bucket: 50,
+      bucketWord: "50-stage",
+      yStep: 5_000,
+      fromZero: false, // scores cluster in a narrow band; start where they do
+    },
+  };
+
   const $ = (sel) => document.querySelector(sel);
   const el = (tag, attrs = {}, kids = []) => {
     const ns = "http://www.w3.org/2000/svg";
@@ -37,6 +59,12 @@
   const fmtPower = (n) =>
     n >= 1e9 ? (n / 1e9).toFixed(2) + "B" : n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : fmtInt(n);
 
+  // Same three jobs for either metric: a y-axis tick, an x-axis bucket label,
+  // and a single measurement in a tooltip or caption.
+  const axisFmt = (m, n) => (m === "power" ? fmtB(n) : fmtInt(Math.round(n)));
+  const bucketFmt = (m, n) => (m === "power" ? fmtM(n) : fmtInt(n));
+  const valueFmt = (m, n) => (m === "power" ? fmtPower(n) : fmtInt(n));
+
   // Some rosters are only partly captured — the screenshots ran out before the
   // list did. Their totals are real but low, so mark them everywhere they show
   // up rather than letting a short bar read as a genuine decline.
@@ -55,6 +83,7 @@
     q: "",
     picked: new Set(), // alliance keys currently shown
     chartMode: "alliance", // "alliance" | "state" (aggregate)
+    metric: "power", // "power" | "labyrinth"
     ranks: new Set(RANKS), // ranks currently shown
     furnace: ALL,
   };
@@ -181,23 +210,31 @@
     const host = $("#charts");
     const drawnRanks = RANKS.filter((r) => state.ranks.has(r));
 
-    if (!players.length) {
+    const M_ = METRICS[state.metric];
+    // Only the top 100 of each state have a Labyrinth score, so a chart of it
+    // covers a subset of whoever is selected.
+    const scored = players.filter((p) => M_.of(p) != null);
+
+    if (!scored.length) {
       $("#chart-sub").textContent = "";
       host.replaceChildren(
         el("p", {
           class: "empty",
-          text: alliances.length
-            ? "No ranks selected — pick at least one rank."
-            : "No alliances selected — pick at least one alliance.",
+          text: !alliances.length
+            ? "No alliances selected — pick at least one alliance."
+            : !players.length
+              ? "No ranks selected — pick at least one rank."
+              : "No selected chief has a Labyrinth score — only each state's top 100 do.",
         })
       );
       return;
     }
 
-    const bucketOf = (p) => Math.ceil(p.power / BUCKET) * BUCKET;
-    const maxBucket = players.reduce((m, p) => Math.max(m, bucketOf(p)), BUCKET);
+    const bucketOf = (p) => Math.ceil(M_.of(p) / M_.bucket) * M_.bucket;
+    const lo = scored.reduce((m, p) => Math.min(m, bucketOf(p)), Infinity);
+    const hi = scored.reduce((m, p) => Math.max(m, bucketOf(p)), M_.bucket);
     const buckets = [];
-    for (let b = BUCKET; b <= maxBucket; b += BUCKET) buckets.push(b);
+    for (let b = M_.fromZero ? M_.bucket : lo; b <= hi; b += M_.bucket) buckets.push(b);
     const xOrder = [...buckets].reverse(); // largest -> smallest
 
     // A "unit" is one chart: either a single alliance or a whole state's
@@ -219,21 +256,26 @@
           sub: byState ? [] : `State ${a.state}`,
           cells: new Map(),
           total: 0,
+          n: 0,
         });
       if (byState) units.get(id).sub.push(a.tag);
     }
 
-    for (const p of players) {
+    for (const p of scored) {
       const u = units.get(unitOf(p));
       if (!u) continue;
       const b = bucketOf(p);
       if (!u.cells.has(b)) u.cells.set(b, {});
       const slot = u.cells.get(b);
-      slot[p.rank] = slot[p.rank] || { power: 0, count: 0 };
-      slot[p.rank].power += p.power;
+      slot[p.rank] = slot[p.rank] || { v: 0, count: 0 };
+      slot[p.rank].v += M_.of(p);
       slot[p.rank].count += 1;
-      u.total += p.power;
+      u.total += M_.of(p);
+      u.n += 1;
     }
+    // An alliance with nobody on the leaderboard gets no chart at all, rather
+    // than an empty frame.
+    for (const [id, u] of [...units]) if (!u.cells.size) units.delete(id);
 
     // chart.md: one shared Y max across every chart on screen, rounded up to
     // the next 50M. Aggregating by state raises it, which is why it is
@@ -241,13 +283,17 @@
     let yMax = 0;
     for (const u of units.values())
       for (const slot of u.cells.values())
-        yMax = Math.max(yMax, drawnRanks.reduce((s, r) => s + (slot[r]?.power || 0), 0));
-    yMax = Math.ceil(yMax / 50_000_000) * 50_000_000 || 50_000_000;
+        yMax = Math.max(yMax, drawnRanks.reduce((s, r) => s + (slot[r]?.v || 0), 0));
+    yMax = Math.ceil(yMax / M_.yStep) * M_.yStep || M_.yStep;
 
     const scopeLabel = state.stateFilter === ALL ? "All states" : `State ${state.stateFilter}`;
+    const covered =
+      state.metric === "labyrinth"
+        ? ` • ${fmtInt(scored.length)} of ${fmtInt(players.length)} selected chiefs are on a top-100 board`
+        : "";
     $("#chart-sub").textContent =
-      `${scopeLabel} — ${byState ? "one chart per state" : "one chart per alliance"}, ` +
-      `25M buckets • shared Y max ${fmtB(yMax)}`;
+      `${scopeLabel} — ${M_.label}, ${byState ? "one chart per state" : "one chart per alliance"}, ` +
+      `${M_.bucketWord} buckets • shared Y max ${axisFmt(state.metric, yMax)}${covered}`;
 
     const ordered = [...units.values()].sort((x, y) => y.total - x.total);
 
@@ -273,7 +319,8 @@
         const svg = el("svg", {
           viewBox: `0 0 ${W} ${H}`,
           role: "img",
-          "aria-label": `${u.title} power distribution by 25M bucket, stacked by rank`,
+          "aria-label":
+            `${u.title} ${M_.label} distribution by ${M_.bucketWord} bucket, stacked by rank`,
         });
 
         // horizontal grid + y ticks
@@ -289,7 +336,7 @@
           svg.appendChild(
             el("text", {
               x: M.left - 10, y: y(v) + 4, "text-anchor": "end",
-              fill: "#b9c0d4", "font-size": "12", text: fmtB(v),
+              fill: "#b9c0d4", "font-size": "12", text: axisFmt(state.metric, v),
             })
           );
         }
@@ -300,8 +347,8 @@
           let acc = 0;
           drawnRanks.forEach((r) => {
             const d = slot[r];
-            if (!d || d.power <= 0) return;
-            const yTop = y(acc + d.power);
+            if (!d || d.v <= 0) return;
+            const yTop = y(acc + d.v);
             const yBot = y(acc);
             const h = Math.max(1, yBot - yTop - 2); // 2px surface gap between segments
             const rect = el("rect", {
@@ -313,14 +360,17 @@
               rx: 2,
               fill: COLORS[r],
             });
+            const bl = bucketFmt(state.metric, b);
             const label =
-              `<span class="t-rank" style="color:${COLORS[r]}">${r}</span> · ${fmtM(b)} bucket<br>` +
-              `${fmtPower(d.power)} from ${d.count} chief${d.count === 1 ? "" : "s"}<br>` +
+              `<span class="t-rank" style="color:${COLORS[r]}">${r}</span> · ${bl} bucket<br>` +
+              `${valueFmt(state.metric, d.v)} from ${d.count} chief${d.count === 1 ? "" : "s"}<br>` +
               `<span class="t-sub">${u.title}</span>`;
             bindTip(rect, label);
-            rect.appendChild(el("title", { text: `${r} ${fmtM(b)}: ${fmtPower(d.power)} (${d.count})` }));
+            rect.appendChild(
+              el("title", { text: `${r} ${bl}: ${valueFmt(state.metric, d.v)} (${d.count})` })
+            );
             svg.appendChild(rect);
-            acc += d.power;
+            acc += d.v;
           });
         });
 
@@ -333,7 +383,7 @@
               x: cx, y: M.top + plotH + 16,
               "text-anchor": "end", fill: "#b9c0d4", "font-size": "12",
               transform: `rotate(-45 ${cx} ${M.top + plotH + 16})`,
-              text: fmtM(b),
+              text: bucketFmt(state.metric, b),
             })
           );
         });
@@ -343,8 +393,13 @@
           ? `${u.sub.length} alliance${u.sub.length === 1 ? "" : "s"}: ${u.sub.join(", ")}`
           : u.sub;
         cap.append(`${u.title} — Total: `);
-        cap.appendChild(el("b", { text: fmtB(u.total) }));
-        cap.appendChild(el("span", { class: "cap-sub", text: detail }));
+        cap.appendChild(el("b", { text: axisFmt(state.metric, u.total) }));
+        cap.appendChild(
+          el("span", {
+            class: "cap-sub",
+            text: state.metric === "labyrinth" ? `${detail} • ${u.n} ranked` : detail,
+          })
+        );
 
         return el("figure", { class: "chart" }, [cap, svg]);
       }
@@ -464,6 +519,15 @@
         y = val(b.furnace);
       } else if (k === "index") {
         return 0;
+      } else if (k === "labyrinth") {
+        // No score is "not on the board", not "scored nothing" -- keep those
+        // rows at the bottom whichever direction the column is sorted.
+        if (a.labyrinth == null || b.labyrinth == null) {
+          if (a.labyrinth == null && b.labyrinth == null) return 0;
+          return a.labyrinth == null ? 1 : -1;
+        }
+        x = a.labyrinth;
+        y = b.labyrinth;
       } else {
         x = a[k];
         y = b[k];
@@ -489,6 +553,16 @@
         tr.appendChild(nameTd);
 
         tr.appendChild(el("td", { class: "num", text: fmtPower(p.power) }));
+        // Only each state's top 100 have a Labyrinth score at all.
+        const lab = el("td", { class: "num" });
+        if (p.labyrinth == null) {
+          lab.textContent = "\u2014";
+          lab.style.color = "var(--ink-3)";
+        } else {
+          lab.textContent = fmtInt(p.labyrinth);
+          lab.setAttribute("title", `Rank ${p.labyrinthRank} in state ${p.state}`);
+        }
+        tr.appendChild(lab);
         tr.appendChild(el("td", { class: "num", text: p.state }));
         tr.appendChild(el("td", { text: `[${p.allianceTag}] ${p.alliance}` }));
 
@@ -613,11 +687,76 @@
     $("#sel-chartmode").value = state.chartMode;
   }
 
+  /* ---------- top 20 per state, side by side ---------- */
+
+  function renderTop20() {
+    const M_ = METRICS[state.metric];
+    const host = $("#top20");
+    const players = activePlayers().filter((p) => M_.of(p) != null);
+    const states = [...new Set(players.map((p) => p.state))].sort();
+
+    if (!states.length) {
+      $("#top20-sub").textContent = "";
+      host.replaceChildren(
+        el("p", {
+          class: "empty",
+          text:
+            state.metric === "labyrinth"
+              ? "No selected chief has a Labyrinth score — only each state's top 100 do."
+              : "No chiefs selected.",
+        })
+      );
+      return;
+    }
+
+    $("#top20-sub").textContent =
+      `Ranked by ${M_.label.toLowerCase()}, one column per state, following the filters above.` +
+      (states.length === 1 ? " Widen the state filter to compare two side by side." : "");
+
+    host.replaceChildren(
+      ...states.map((st) => {
+        const top = players
+          .filter((p) => p.state === st)
+          .sort((a, b) => M_.of(b) - M_.of(a))
+          .slice(0, 20);
+        // A column total makes the two states comparable at a glance, rather
+        // than leaving the reader to eyeball twenty rows against twenty rows.
+        const sum = top.reduce((n, p) => n + M_.of(p), 0);
+
+        const head = el("div", { class: "t20-head" });
+        head.appendChild(el("span", { class: "t20-state", text: `State ${st}` }));
+        head.appendChild(
+          el("span", {
+            class: "t20-sum",
+            text: `${top.length} shown · ${axisFmt(state.metric, sum)} total`,
+          })
+        );
+
+        const list = el("ol", { class: "t20-list" });
+        for (const [i, pl] of top.entries()) {
+          const li = el("li");
+          li.appendChild(el("span", { class: "t20-pos", text: String(i + 1) }));
+          const who = el("span", { class: "t20-who" });
+          who.appendChild(el("span", { class: "t20-name", text: pl.chiefName || "(blank in game)" }));
+          who.appendChild(el("span", { class: "t20-tag", text: `[${pl.allianceTag}]` }));
+          li.appendChild(who);
+          const pill = el("span", { class: "pill t20-rank", text: pl.rank });
+          pill.style.background = COLORS[pl.rank];
+          li.appendChild(pill);
+          li.appendChild(el("span", { class: "t20-val", text: valueFmt(state.metric, M_.of(pl)) }));
+          list.appendChild(li);
+        }
+        return el("section", { class: "t20-col" }, [head, list]);
+      })
+    );
+  }
+
   function renderAll() {
     renderTiles();
     renderLegend();
     renderCharts();
     renderAllianceTable();
+    renderTop20();
     renderPlayerTable();
   }
 
@@ -646,6 +785,12 @@
     $("#sel-chartmode").addEventListener("change", (e) => {
       state.chartMode = e.target.value;
       renderCharts();
+    });
+
+    $("#sel-metric").addEventListener("change", (e) => {
+      state.metric = e.target.value;
+      renderCharts();
+      renderTop20();
     });
 
     // alliance dropdown open/close
@@ -691,7 +836,8 @@
         if (state.sortKey === key) state.sortDir *= -1;
         else {
           state.sortKey = key;
-          state.sortDir = key === "power" ? -1 : 1;
+          // Numeric "bigger is better" columns open descending; names open A-Z.
+          state.sortDir = key === "power" || key === "labyrinth" ? -1 : 1;
         }
         document
           .querySelectorAll("#player-table th[aria-sort]")

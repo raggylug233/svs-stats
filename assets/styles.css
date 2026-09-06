@@ -249,6 +249,29 @@ main > * { min-width: 0; }
 
 .panel-sub { margin: 6px 0 0; color: var(--ink-3); font-size: 13px; }
 /* Caveat under a table whose numbers are knowingly incomplete. */
+/* Top 20 per state: one column per state, side by side on a wide screen and
+   stacked on a phone, so the two lists can be read against each other. */
+.top20 { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.t20-col { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.t20-head {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
+  padding: 8px 12px; background: rgba(255,255,255,.04); border-bottom: 1px solid var(--line);
+}
+.t20-state { font-weight: 600; letter-spacing: .02em; }
+.t20-sum { color: var(--ink-3); font-size: 12px; }
+.t20-list { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.t20-list li {
+  display: grid; grid-template-columns: 26px 1fr auto auto; gap: 8px;
+  align-items: center; padding: 6px 12px; font-size: 13px;
+}
+.t20-list li + li { border-top: 1px solid var(--line); }
+.t20-pos { color: var(--ink-3); font-variant-numeric: tabular-nums; text-align: right; }
+.t20-who { display: flex; gap: 6px; align-items: baseline; min-width: 0; }
+.t20-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.t20-tag { color: var(--ink-3); font-size: 11.5px; flex: none; }
+.t20-rank { font-size: 11px; }
+.t20-val { font-variant-numeric: tabular-nums; font-weight: 600; }
+
 .panel-note { margin: 10px 2px 0; color: var(--ink-3); font-size: 12px; line-height: 1.5; }
 .partial { color: var(--ink-3); cursor: help; }
 

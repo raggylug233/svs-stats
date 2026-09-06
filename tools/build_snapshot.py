@@ -203,6 +203,72 @@ def name_is_uncertain(name: str) -> bool:
     return False
 
 
+def load_labyrinth(roster_dir: Path, state: str) -> list[dict]:
+    """Read one state's Labyrinth leaderboard, if it was captured.
+
+    Rows are rank<TAB>allianceTag<TAB>chiefName<TAB>totalStages. The board is
+    state-wide top 100, so it also lists alliances we do not track and players
+    with no alliance at all (tag "-"); those are kept here and dropped at the
+    join, since the file is a record of the board as it stood.
+    """
+    f = roster_dir / f"{state}_labyrinth.tsv"
+    if not f.exists():
+        return []
+    out = []
+    for line in f.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        rank, tag, name, score = line.split("\t")
+        out.append({"rank": int(rank), "allianceTag": tag, "chiefName": name,
+                    "score": int(score.replace(",", ""))})
+    return out
+
+
+def attach_labyrinth(players: list[dict], board: list[dict], state: str) -> dict:
+    """Join leaderboard scores onto the roster by (alliance tag, chief name).
+
+    Returns counts for the build report. Anything that does not join is surfaced
+    rather than silently dropped: a tracked alliance whose player is missing from
+    the roster means the two extractions disagree about a name.
+    """
+    tracked = {p["allianceTag"] for p in players}
+    by_key: dict[tuple[str, str], list[dict]] = {}
+    for p in players:
+        by_key.setdefault((p["allianceTag"], p["chiefName"]), []).append(p)
+
+    stats = {"matched": 0, "untracked": 0, "unmatched": [], "ambiguous": []}
+    pending: dict[tuple[str, str], list[dict]] = {}
+    for e in board:
+        key = (e["allianceTag"], e["chiefName"])
+        if e["allianceTag"] not in tracked:
+            stats["untracked"] += 1
+            continue
+        if key not in by_key:
+            stats["unmatched"].append(f"{state} [{e['allianceTag']}]{e['chiefName']}")
+            continue
+        pending.setdefault(key, []).append(e)
+
+    for key, entries in pending.items():
+        roster = by_key[key]
+        if len(roster) == 1 and len(entries) == 1:
+            roster[0]["labyrinth"] = entries[0]["score"]
+            roster[0]["labyrinthRank"] = entries[0]["rank"]
+            stats["matched"] += 1
+            continue
+        # Same display name used by more than one player in the alliance. When the
+        # board lists exactly as many, pair them best-score-to-highest-power and
+        # flag both, since nothing in either screen distinguishes them.
+        roster = sorted(roster, key=lambda p: -p["power"])
+        entries = sorted(entries, key=lambda e: -e["score"])
+        stats["ambiguous"].append(f"{state} [{key[0]}]{key[1]} x{len(roster)}")
+        for pl, e in zip(roster, entries):
+            pl["labyrinth"] = e["score"]
+            pl["labyrinthRank"] = e["rank"]
+            pl["labyrinthAmbiguous"] = True
+            stats["matched"] += 1
+    return stats
+
+
 def main() -> None:
     date, tsv_dir = sys.argv[1], Path(sys.argv[2])
     if date not in ALLIANCES:
@@ -284,13 +350,28 @@ def main() -> None:
     if problems:
         raise SystemExit("roster count mismatch:\n  " + "\n  ".join(problems))
 
+    # Labyrinth total-stages score, joined on per state where captured.
+    states = sorted({a["state"] for a in alliances})
+    boards, lab_stats = {}, []
+    for st in states:
+        board = load_labyrinth(roster_dir, st)
+        if not board:
+            continue
+        boards[st] = board
+        stats = attach_labyrinth([p for p in players if p["state"] == st], board, st)
+        lab_stats.append((st, stats))
+
     snapshot = {
         "date": date,
-        "states": sorted({a["state"] for a in alliances}),
+        "states": states,
         "playerCount": len(players),
         "alliances": alliances,
         "players": players,
     }
+    if boards:
+        # The board is state-wide top 100, so it is worth keeping whole: it is the
+        # only view we have of alliances outside the roster.
+        snapshot["labyrinth"] = {st: {"top": len(b), "entries": b} for st, b in boards.items()}
     out = REPO / "data" / "snapshots" / f"{date}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(snapshot, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -315,6 +396,13 @@ def main() -> None:
     for a in alliances:
         if a.get("partial"):
             print(f"  PARTIAL {a['key']}: {a['partialNote']}")
+    for st, stats in lab_stats:
+        print(f"  labyrinth {st}: {stats['matched']} joined, "
+              f"{stats['untracked']} in untracked alliances")
+        for a in stats["ambiguous"]:
+            print(f"    ambiguous (paired by power): {a}")
+        for u in stats["unmatched"]:
+            print(f"    NO ROSTER MATCH: {u}")
 
 
 if __name__ == "__main__":

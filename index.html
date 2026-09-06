@@ -50,6 +50,14 @@
     </div>
 
     <div class="chartmode">
+      <span class="ms-label" id="metric-label">Measure</span>
+      <select id="sel-metric" aria-labelledby="metric-label">
+        <option value="power">Power</option>
+        <option value="labyrinth">Labyrinth score</option>
+      </select>
+    </div>
+
+    <div class="chartmode">
       <span class="ms-label" id="mode-label">Charts</span>
       <select id="sel-chartmode" aria-labelledby="mode-label">
         <option value="alliance">One per alliance</option>
@@ -93,6 +101,14 @@
 
   <section class="panel">
     <div class="panel-head">
+      <h2>Top 20 by state</h2>
+      <p class="panel-sub" id="top20-sub"></p>
+    </div>
+    <div class="top20" id="top20"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
       <h2>Players</h2>
       <p class="panel-sub"><span id="player-count"></span> &mdash; click a column to sort.</p>
     </div>
@@ -108,6 +124,7 @@
             <th class="num">#</th>
             <th data-sort="chiefName">Chief Name</th>
             <th class="num" data-sort="power">Power</th>
+            <th class="num" data-sort="labyrinth">Labyrinth</th>
             <th class="num" data-sort="state">State</th>
             <th data-sort="alliance">Alliance</th>
             <th data-sort="rank">Rank</th>

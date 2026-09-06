@@ -299,7 +299,9 @@
    "allianceTag": "VKR",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1256,
+   "labyrinthRank": 48
   },
   {
    "chiefName": "Rolloᵛᵏʳ",
@@ -310,7 +312,9 @@
    "allianceTag": "VKR",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1595,
+   "labyrinthRank": 3
   },
   {
    "chiefName": "Schamser",
@@ -320,7 +324,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1477,
+   "labyrinthRank": 11
   },
   {
    "chiefName": "Peppermint",
@@ -330,7 +336,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1586,
+   "labyrinthRank": 5
   },
   {
    "chiefName": "ColossusX",
@@ -340,7 +348,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1184,
+   "labyrinthRank": 78
   },
   {
    "chiefName": "Mushroomᵛᵏʳ",
@@ -351,7 +361,9 @@
    "allianceTag": "VKR",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1568,
+   "labyrinthRank": 6
   },
   {
    "chiefName": "Mint",
@@ -371,7 +383,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1159,
+   "labyrinthRank": 91
   },
   {
    "chiefName": "marebito",
@@ -391,7 +405,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1254,
+   "labyrinthRank": 51
   },
   {
    "chiefName": "MR X",
@@ -401,7 +417,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1182,
+   "labyrinthRank": 82
   },
   {
    "chiefName": "Ritz",
@@ -411,7 +429,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1314,
+   "labyrinthRank": 32
   },
   {
    "chiefName": "champoiii",
@@ -421,7 +441,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1221,
+   "labyrinthRank": 60
   },
   {
    "chiefName": "Eggs",
@@ -441,7 +463,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1228,
+   "labyrinthRank": 57
   },
   {
    "chiefName": "Ragnar 071603",
@@ -451,7 +475,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1333,
+   "labyrinthRank": 27
   },
   {
    "chiefName": "SABINKA",
@@ -502,7 +528,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1164,
+   "labyrinthRank": 88
   },
   {
    "chiefName": "Reptans",
@@ -532,7 +560,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1286,
+   "labyrinthRank": 41
   },
   {
    "chiefName": "Lucianᵛᵏʳ",
@@ -543,7 +573,9 @@
    "allianceTag": "VKR",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1234,
+   "labyrinthRank": 55
   },
   {
    "chiefName": "Fenerbahçe",
@@ -674,7 +706,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1153,
+   "labyrinthRank": 99
   },
   {
    "chiefName": "silence",
@@ -784,7 +818,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1201,
+   "labyrinthRank": 68
   },
   {
    "chiefName": "Gang&ter 007",
@@ -794,7 +830,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1224,
+   "labyrinthRank": 58
   },
   {
    "chiefName": "SHREKᵛᵏʳ",
@@ -805,7 +843,9 @@
    "allianceTag": "VKR",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1214,
+   "labyrinthRank": 64
   },
   {
    "chiefName": "LORENZO 91",
@@ -867,7 +907,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1299,
+   "labyrinthRank": 36
   },
   {
    "chiefName": "AymerVW",
@@ -897,7 +939,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1191,
+   "labyrinthRank": 74
   },
   {
    "chiefName": "Danny",
@@ -967,7 +1011,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1314,
+   "labyrinthRank": 31
   },
   {
    "chiefName": "exLUIS",
@@ -987,7 +1033,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1303,
+   "labyrinthRank": 34
   },
   {
    "chiefName": "Dublin 1890",
@@ -997,7 +1045,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1272,
+   "labyrinthRank": 43
   },
   {
    "chiefName": "Tayxo",
@@ -1007,7 +1057,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1272,
+   "labyrinthRank": 42
   },
   {
    "chiefName": "Sassafras McGill",
@@ -1037,7 +1089,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1289,
+   "labyrinthRank": 40
   },
   {
    "chiefName": "BSM",
@@ -1077,7 +1131,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1164,
+   "labyrinthRank": 89
   },
   {
    "chiefName": "YobuShobuSunGoku",
@@ -1107,7 +1163,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1154,
+   "labyrinthRank": 97
   },
   {
    "chiefName": "Eggplant",
@@ -1127,7 +1185,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1216,
+   "labyrinthRank": 62
   },
   {
    "chiefName": "Bunty",
@@ -1137,7 +1197,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1170,
+   "labyrinthRank": 86
   },
   {
    "chiefName": "stellagirl",
@@ -1168,7 +1230,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1308,
+   "labyrinthRank": 33
   },
   {
    "chiefName": "ree",
@@ -1210,7 +1274,9 @@
    "allianceTag": "VKR",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1243,
+   "labyrinthRank": 54
   },
   {
    "chiefName": "LittleMɪz",
@@ -1230,7 +1296,9 @@
    "alliance": "Vikings",
    "allianceTag": "VKR",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1259,
+   "labyrinthRank": 47
   },
   {
    "chiefName": "Sima",
@@ -1302,7 +1370,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1261,
+   "labyrinthRank": 46
   },
   {
    "chiefName": "Germ",
@@ -1312,7 +1382,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1510,
+   "labyrinthRank": 7
   },
   {
    "chiefName": "Raggylug",
@@ -1322,7 +1394,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1387,
+   "labyrinthRank": 19
   },
   {
    "chiefName": "Sassyᴬᴺᴸ",
@@ -1343,7 +1417,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1444,
+   "labyrinthRank": 13
   },
   {
    "chiefName": "Ananas",
@@ -1364,7 +1440,9 @@
    "allianceTag": "UFO",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1222,
+   "labyrinthRank": 59
   },
   {
    "chiefName": "Awares",
@@ -1374,7 +1452,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1362,
+   "labyrinthRank": 21
   },
   {
    "chiefName": "Queen of Hearts",
@@ -1394,7 +1474,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1399,
+   "labyrinthRank": 17
   },
   {
    "chiefName": "Chytras ᴬᴺᴸ",
@@ -1405,7 +1487,9 @@
    "allianceTag": "UFO",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1441,
+   "labyrinthRank": 14
   },
   {
    "chiefName": "Fangs of Maple",
@@ -1415,7 +1499,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1400,
+   "labyrinthRank": 16
   },
   {
    "chiefName": "Goody~",
@@ -1425,7 +1511,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1470,
+   "labyrinthRank": 12
   },
   {
    "chiefName": "Leoder",
@@ -1435,7 +1523,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1590,
+   "labyrinthRank": 4
   },
   {
    "chiefName": "Interstellar",
@@ -1445,7 +1535,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1359,
+   "labyrinthRank": 23
   },
   {
    "chiefName": "LE RAT CANAM",
@@ -1455,7 +1547,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1262,
+   "labyrinthRank": 45
   },
   {
    "chiefName": "Cruella de Vil",
@@ -1465,7 +1559,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1197,
+   "labyrinthRank": 70
   },
   {
    "chiefName": "Ms Get Down",
@@ -1475,7 +1571,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1436,
+   "labyrinthRank": 15
   },
   {
    "chiefName": "USO GREYS",
@@ -1506,7 +1604,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1187,
+   "labyrinthRank": 77
   },
   {
    "chiefName": "Paulo'",
@@ -1516,7 +1616,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1214,
+   "labyrinthRank": 63
   },
   {
    "chiefName": "Lïna",
@@ -1546,7 +1648,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1156,
+   "labyrinthRank": 93
   },
   {
    "chiefName": "Reddyvetty",
@@ -1636,7 +1740,9 @@
    "alliance": "Aliens",
    "allianceTag": "UFO",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1160,
+   "labyrinthRank": 90
   },
   {
    "chiefName": "Arwres",
@@ -2247,7 +2353,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1244,
+   "labyrinthRank": 53
   },
   {
    "chiefName": "一翦寒梅 BPlum",
@@ -2257,7 +2365,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1707,
+   "labyrinthRank": 1
   },
   {
    "chiefName": "璽玥Moon",
@@ -2278,7 +2388,9 @@
    "allianceTag": "TTC",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1193,
+   "labyrinthRank": 73
   },
   {
    "chiefName": "陳平安 Ping an",
@@ -2288,7 +2400,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1229,
+   "labyrinthRank": 56
   },
   {
    "chiefName": "卡卡～kaka",
@@ -2298,7 +2412,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1399,
+   "labyrinthRank": 18
   },
   {
    "chiefName": "肛莖戀精速濕DK",
@@ -2308,7 +2424,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1348,
+   "labyrinthRank": 25
   },
   {
    "chiefName": "藍莓 BBerry",
@@ -2318,7 +2436,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1183,
+   "labyrinthRank": 80
   },
   {
    "chiefName": "倉之鼠",
@@ -2338,7 +2458,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1363,
+   "labyrinthRank": 20
   },
   {
    "chiefName": "ZeroTseng",
@@ -2348,7 +2470,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1360,
+   "labyrinthRank": 22
   },
   {
    "chiefName": "RJJJ",
@@ -2398,7 +2522,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1292,
+   "labyrinthRank": 39
   },
   {
    "chiefName": "宮美春洽",
@@ -2408,7 +2534,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1248,
+   "labyrinthRank": 52
   },
   {
    "chiefName": "多尼多尼·喬巴",
@@ -2419,7 +2547,9 @@
    "allianceTag": "TTC",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1165,
+   "labyrinthRank": 87
   },
   {
    "chiefName": "O阿威O",
@@ -2550,7 +2680,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1497,
+   "labyrinthRank": 9
   },
   {
    "chiefName": "Skorpion",
@@ -2570,7 +2702,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1194,
+   "labyrinthRank": 71
   },
   {
    "chiefName": "壞的很厲害",
@@ -2600,7 +2734,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1173,
+   "labyrinthRank": 84
   },
   {
    "chiefName": "bdu",
@@ -2620,7 +2756,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1181,
+   "labyrinthRank": 83
   },
   {
    "chiefName": "SLAYR",
@@ -2650,7 +2788,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1220,
+   "labyrinthRank": 61
   },
   {
    "chiefName": "James xiaohe",
@@ -2670,7 +2810,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1173,
+   "labyrinthRank": 85
   },
   {
    "chiefName": "愛喝紅茶去冰微糖的帥哥昇HS",
@@ -2730,7 +2872,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1326,
+   "labyrinthRank": 28
   },
   {
    "chiefName": "GGININDER7899",
@@ -2830,7 +2974,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1155,
+   "labyrinthRank": 96
   },
   {
    "chiefName": "RollingPaper",
@@ -2890,7 +3036,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1256,
+   "labyrinthRank": 49
   },
   {
    "chiefName": "沙特Shātè",
@@ -2920,7 +3068,9 @@
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1213,
+   "labyrinthRank": 66
   },
   {
    "chiefName": "◯°ᵃᵍⁿᵉˢᶦᵃ°◯ᵀᵀᶜ",
@@ -3101,7 +3251,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1293,
+   "labyrinthRank": 38
   },
   {
    "chiefName": "Eddie",
@@ -3111,7 +3263,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1661,
+   "labyrinthRank": 2
   },
   {
    "chiefName": "Chaos",
@@ -3121,7 +3275,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1255,
+   "labyrinthRank": 50
   },
   {
    "chiefName": "TMB",
@@ -3141,7 +3297,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1188,
+   "labyrinthRank": 76
   },
   {
    "chiefName": "R¥NO",
@@ -3162,7 +3320,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1155,
+   "labyrinthRank": 95
   },
   {
    "chiefName": "Nar hates philly",
@@ -3172,7 +3332,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1201,
+   "labyrinthRank": 67
   },
   {
    "chiefName": "Alf",
@@ -3243,7 +3405,9 @@
    "allianceTag": "SIN",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1481,
+   "labyrinthRank": 10
   },
   {
    "chiefName": "Stesha",
@@ -3443,7 +3607,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1325,
+   "labyrinthRank": 29
   },
   {
    "chiefName": "Edo",
@@ -3524,7 +3690,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1153,
+   "labyrinthRank": 98
   },
   {
    "chiefName": "tay",
@@ -3544,7 +3712,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1359,
+   "labyrinthRank": 24
   },
   {
    "chiefName": "MBG",
@@ -3634,7 +3804,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1184,
+   "labyrinthRank": 79
   },
   {
    "chiefName": "Old_Viking",
@@ -3724,7 +3896,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1303,
+   "labyrinthRank": 35
   },
   {
    "chiefName": "kr1dm",
@@ -3734,7 +3908,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1270,
+   "labyrinthRank": 44
   },
   {
    "chiefName": "Dziadek",
@@ -3744,7 +3920,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1182,
+   "labyrinthRank": 81
   },
   {
    "chiefName": "Milord",
@@ -3764,7 +3942,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1155,
+   "labyrinthRank": 94
   },
   {
    "chiefName": "Kate",
@@ -3795,7 +3975,9 @@
    "allianceTag": "SIN",
    "state": "3178",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1334,
+   "labyrinthRank": 26
   },
   {
    "chiefName": "Kookie",
@@ -3805,7 +3987,9 @@
    "alliance": "BeechesOfChaos",
    "allianceTag": "SIN",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1159,
+   "labyrinthRank": 92
   },
   {
    "chiefName": "Owzer",
@@ -4095,7 +4279,9 @@
    "alliance": "TheEternalArt",
    "allianceTag": "TEA",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1190,
+   "labyrinthRank": 75
   },
   {
    "chiefName": "Flexx",
@@ -4105,7 +4291,9 @@
    "alliance": "TheEternalArt",
    "allianceTag": "TEA",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1318,
+   "labyrinthRank": 30
   },
   {
    "chiefName": "Aurora_",
@@ -4115,7 +4303,9 @@
    "alliance": "TheEternalArt",
    "allianceTag": "TEA",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1153,
+   "labyrinthRank": 100
   },
   {
    "chiefName": "GILDER",
@@ -4145,7 +4335,9 @@
    "alliance": "TheEternalArt",
    "allianceTag": "TEA",
    "state": "3178",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1194,
+   "labyrinthRank": 72
   },
   {
    "chiefName": "Hugislava",
@@ -4696,7 +4888,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1275,
+   "labyrinthRank": 31
   },
   {
    "chiefName": "Unknown°",
@@ -4707,7 +4901,9 @@
    "allianceTag": "INK",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1675,
+   "labyrinthRank": 1
   },
   {
    "chiefName": "᠅ᔆD E A T Hᔆ᠅",
@@ -4718,7 +4914,9 @@
    "allianceTag": "INK",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1420,
+   "labyrinthRank": 6
   },
   {
    "chiefName": "Jimbo",
@@ -4728,7 +4926,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1474,
+   "labyrinthRank": 4
   },
   {
    "chiefName": "᠅ᔆAeloriaᔆ᠅",
@@ -4739,7 +4939,9 @@
    "allianceTag": "INK",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1345,
+   "labyrinthRank": 13
   },
   {
    "chiefName": "Xiao`Malass",
@@ -4749,7 +4951,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1284,
+   "labyrinthRank": 30
   },
   {
    "chiefName": "dyor",
@@ -4759,7 +4963,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1376,
+   "labyrinthRank": 11
   },
   {
    "chiefName": "Nixx",
@@ -4769,7 +4975,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1204,
+   "labyrinthRank": 59
   },
   {
    "chiefName": "Neko Marah",
@@ -4779,7 +4987,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1104,
+   "labyrinthRank": 95
   },
   {
    "chiefName": "134340",
@@ -4799,7 +5009,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1190,
+   "labyrinthRank": 63
   },
   {
    "chiefName": "Ricky_Flush",
@@ -4809,7 +5021,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1537,
+   "labyrinthRank": 3
   },
   {
    "chiefName": "D~1,1",
@@ -4819,7 +5033,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1384,
+   "labyrinthRank": 10
   },
   {
    "chiefName": "ILPYO",
@@ -4829,7 +5045,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1228,
+   "labyrinthRank": 48
   },
   {
    "chiefName": "Kodomo",
@@ -4859,7 +5077,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1145,
+   "labyrinthRank": 81
   },
   {
    "chiefName": "Alchemist",
@@ -4869,7 +5089,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1212,
+   "labyrinthRank": 52
   },
   {
    "chiefName": "BULL Soft Spoken",
@@ -4879,7 +5101,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1136,
+   "labyrinthRank": 84
   },
   {
    "chiefName": "H E N N N",
@@ -4889,7 +5113,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1297,
+   "labyrinthRank": 25
   },
   {
    "chiefName": "Melpusa14",
@@ -4899,7 +5125,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1322,
+   "labyrinthRank": 16
   },
   {
    "chiefName": "IronLeaf Ali",
@@ -4909,7 +5137,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1182,
+   "labyrinthRank": 67
   },
   {
    "chiefName": "Toghoom",
@@ -4919,7 +5149,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1127,
+   "labyrinthRank": 87
   },
   {
    "chiefName": "Chemsou",
@@ -4929,7 +5161,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1298,
+   "labyrinthRank": 23
   },
   {
    "chiefName": "Sun days ahmed",
@@ -4949,7 +5183,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1318,
+   "labyrinthRank": 19
   },
   {
    "chiefName": "Xyro",
@@ -4959,7 +5195,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1285,
+   "labyrinthRank": 28
   },
   {
    "chiefName": "ily",
@@ -4969,7 +5207,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1300,
+   "labyrinthRank": 22
   },
   {
    "chiefName": "Zaki ᨓᴵᴺᴬ",
@@ -4980,7 +5220,9 @@
    "allianceTag": "INK",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1304,
+   "labyrinthRank": 20
   },
   {
    "chiefName": "Zukó",
@@ -4990,7 +5232,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1359,
+   "labyrinthRank": 12
   },
   {
    "chiefName": "Kaktusss",
@@ -5000,7 +5244,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1120,
+   "labyrinthRank": 89
   },
   {
    "chiefName": "MoCha ツ",
@@ -5010,7 +5256,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1262,
+   "labyrinthRank": 35
   },
   {
    "chiefName": "Pria Solo",
@@ -5020,7 +5268,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1207,
+   "labyrinthRank": 56
   },
   {
    "chiefName": "Axell_Mackenzie",
@@ -5030,7 +5280,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1176,
+   "labyrinthRank": 69
   },
   {
    "chiefName": "IPUL",
@@ -5040,7 +5292,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1285,
+   "labyrinthRank": 29
   },
   {
    "chiefName": "Bagundezz",
@@ -5050,7 +5304,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1214,
+   "labyrinthRank": 51
   },
   {
    "chiefName": "Dark_Adelia",
@@ -5060,7 +5316,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1241,
+   "labyrinthRank": 41
   },
   {
    "chiefName": "Suny",
@@ -5070,7 +5328,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1180,
+   "labyrinthRank": 68
   },
   {
    "chiefName": "Mang Ewok",
@@ -5080,7 +5340,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1249,
+   "labyrinthRank": 39
   },
   {
    "chiefName": "Jott",
@@ -5090,7 +5352,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1231,
+   "labyrinthRank": 46
   },
   {
    "chiefName": "Jack the Ripper",
@@ -5100,7 +5364,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1273,
+   "labyrinthRank": 33
   },
   {
    "chiefName": "Gin",
@@ -5110,7 +5376,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1294,
+   "labyrinthRank": 27
   },
   {
    "chiefName": "John Targaryen",
@@ -5120,7 +5388,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1240,
+   "labyrinthRank": 42
   },
   {
    "chiefName": "Andalusia",
@@ -5130,7 +5400,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1232,
+   "labyrinthRank": 45
   },
   {
    "chiefName": "Alannn¶¶",
@@ -5141,7 +5413,9 @@
    "allianceTag": "INK",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1385,
+   "labyrinthRank": 9
   },
   {
    "chiefName": "Thorin`",
@@ -5161,7 +5435,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1413,
+   "labyrinthRank": 7
   },
   {
    "chiefName": "Surati",
@@ -5171,7 +5447,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1303,
+   "labyrinthRank": 21
   },
   {
    "chiefName": "Jèe Malas",
@@ -5191,7 +5469,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1189,
+   "labyrinthRank": 64
   },
   {
    "chiefName": "¥5AM50N¥",
@@ -5202,7 +5482,9 @@
    "allianceTag": "INK",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1136,
+   "labyrinthRank": 85
   },
   {
    "chiefName": "KAPITAN_WHO",
@@ -5232,7 +5514,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1155,
+   "labyrinthRank": 77
   },
   {
    "chiefName": "malessssss",
@@ -5252,7 +5536,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1120,
+   "labyrinthRank": 91
   },
   {
    "chiefName": "Rajasatan",
@@ -5262,7 +5548,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1151,
+   "labyrinthRank": 78
   },
   {
    "chiefName": "Jin Runcandel",
@@ -5272,7 +5560,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1187,
+   "labyrinthRank": 65
   },
   {
    "chiefName": "jellyfish",
@@ -5282,7 +5572,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1172,
+   "labyrinthRank": 71
   },
   {
    "chiefName": "ღ BANI ღB H",
@@ -5303,7 +5595,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1093,
+   "labyrinthRank": 99
   },
   {
    "chiefName": "Nextralalalili",
@@ -5586,7 +5880,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1191,
+   "labyrinthRank": 62
   },
   {
    "chiefName": "juner",
@@ -5596,7 +5892,9 @@
    "alliance": "INK",
    "allianceTag": "INK",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1333,
+   "labyrinthRank": 14
   },
   {
    "chiefName": "Draven Vale",
@@ -5686,7 +5984,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1238,
+   "labyrinthRank": 43
   },
   {
    "chiefName": "Warlock",
@@ -5696,7 +5996,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1433,
+   "labyrinthRank": 5
   },
   {
    "chiefName": "yorU",
@@ -5706,7 +6008,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1322,
+   "labyrinthRank": 18
   },
   {
    "chiefName": "Anonim",
@@ -5716,7 +6020,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1556,
+   "labyrinthRank": 2
   },
   {
    "chiefName": "Kempuu",
@@ -5726,7 +6032,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1186,
+   "labyrinthRank": 66
   },
   {
    "chiefName": "Kempu",
@@ -5736,7 +6044,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1332,
+   "labyrinthRank": 15
   },
   {
    "chiefName": "Smilodon",
@@ -5746,7 +6056,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1406,
+   "labyrinthRank": 8
   },
   {
    "chiefName": "Gintoki",
@@ -5756,7 +6068,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1176,
+   "labyrinthRank": 70
   },
   {
    "chiefName": "HVP",
@@ -5766,7 +6080,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1138,
+   "labyrinthRank": 82
   },
   {
    "chiefName": "Zoro##",
@@ -5776,7 +6092,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1171,
+   "labyrinthRank": 72
   },
   {
    "chiefName": "Kempuu2",
@@ -5786,7 +6104,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1207,
+   "labyrinthRank": 57
   },
   {
    "chiefName": "ŧāƶ475",
@@ -5796,7 +6116,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1269,
+   "labyrinthRank": 34
   },
   {
    "chiefName": "T'wang",
@@ -5816,7 +6138,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1101,
+   "labyrinthRank": 96
   },
   {
    "chiefName": "#PRECIOUS#{DÄYÃ}",
@@ -5826,7 +6150,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1255,
+   "labyrinthRank": 38
   },
   {
    "chiefName": "ᨓKai",
@@ -5837,7 +6163,9 @@
    "allianceTag": "ICE",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1261,
+   "labyrinthRank": 36
   },
   {
    "chiefName": "Nona",
@@ -5857,7 +6185,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1211,
+   "labyrinthRank": 53
   },
   {
    "chiefName": "hening",
@@ -5867,7 +6197,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1162,
+   "labyrinthRank": 75
   },
   {
    "chiefName": "RIELLS",
@@ -5877,7 +6209,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1295,
+   "labyrinthRank": 26
   },
   {
    "chiefName": "ST4NZ475",
@@ -5887,7 +6221,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1128,
+   "labyrinthRank": 86
   },
   {
    "chiefName": "Loki##",
@@ -5927,7 +6263,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1274,
+   "labyrinthRank": 32
   },
   {
    "chiefName": "anunyaANUBRUT",
@@ -5947,7 +6285,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1149,
+   "labyrinthRank": 79
   },
   {
    "chiefName": "Rum4h Set4n",
@@ -5967,7 +6307,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1298,
+   "labyrinthRank": 24
   },
   {
    "chiefName": "Leilani",
@@ -5977,7 +6319,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1168,
+   "labyrinthRank": 73
   },
   {
    "chiefName": "MERMAID MAN",
@@ -5997,7 +6341,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1205,
+   "labyrinthRank": 58
   },
   {
    "chiefName": "n p c",
@@ -6007,7 +6353,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1230,
+   "labyrinthRank": 47
   },
   {
    "chiefName": "くにくずし",
@@ -6067,7 +6415,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1218,
+   "labyrinthRank": 50
   },
   {
    "chiefName": "Hisoka_Morow",
@@ -6077,7 +6427,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1097,
+   "labyrinthRank": 97
   },
   {
    "chiefName": "GTO",
@@ -6087,7 +6439,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1238,
+   "labyrinthRank": 44
   },
   {
    "chiefName": "ÄLY",
@@ -6127,7 +6481,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1091,
+   "labyrinthRank": 100
   },
   {
    "chiefName": "Coke Alfonso",
@@ -6237,7 +6593,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1137,
+   "labyrinthRank": 83
   },
   {
    "chiefName": "BUTIKI",
@@ -6277,7 +6635,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1097,
+   "labyrinthRank": 98
   },
   {
    "chiefName": "Katakuri",
@@ -6317,7 +6677,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1107,
+   "labyrinthRank": 94
   },
   {
    "chiefName": "Shaa_zia",
@@ -6509,7 +6871,9 @@
    "alliance": "TUBIG",
    "allianceTag": "ICE",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1210,
+   "labyrinthRank": 54
   },
   {
    "chiefName": "SěŕëNôt",
@@ -6590,7 +6954,9 @@
    "alliance": "pixies",
    "allianceTag": "PXI",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1259,
+   "labyrinthRank": 37
   },
   {
    "chiefName": "ᨓᴾˣᴵᨓ MƐLOΝ",
@@ -6601,7 +6967,9 @@
    "allianceTag": "PXI",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1200,
+   "labyrinthRank": 60
   },
   {
    "chiefName": "XirhoBaboy",
@@ -6611,7 +6979,9 @@
    "alliance": "pixies",
    "allianceTag": "PXI",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1247,
+   "labyrinthRank": 40
   },
   {
    "chiefName": "mhinG",
@@ -6641,7 +7011,9 @@
    "alliance": "pixies",
    "allianceTag": "PXI",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1164,
+   "labyrinthRank": 74
   },
   {
    "chiefName": "\"Tiko\"ৡ",
@@ -6652,7 +7024,9 @@
    "allianceTag": "PXI",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1122,
+   "labyrinthRank": 88
   },
   {
    "chiefName": "Arthur\"",
@@ -6712,7 +7086,9 @@
    "alliance": "pixies",
    "allianceTag": "PXI",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1322,
+   "labyrinthRank": 17
   },
   {
    "chiefName": "CERTEVINCAM",
@@ -6722,7 +7098,9 @@
    "alliance": "pixies",
    "allianceTag": "PXI",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1208,
+   "labyrinthRank": 55
   },
   {
    "chiefName": "WANG LINN",
@@ -6732,7 +7110,9 @@
    "alliance": "pixies",
    "allianceTag": "PXI",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1192,
+   "labyrinthRank": 61
   },
   {
    "chiefName": "Soto Koya ৡ",
@@ -6743,7 +7123,9 @@
    "allianceTag": "PXI",
    "state": "3213",
    "date": "2026.09.06",
-   "nameUncertain": true
+   "nameUncertain": true,
+   "labyrinth": 1223,
+   "labyrinthRank": 49
   },
   {
    "chiefName": "Renata Octavia",
@@ -6994,7 +7376,10 @@
    "alliance": "pixies",
    "allianceTag": "PXI",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1155,
+   "labyrinthRank": 76,
+   "labyrinthAmbiguous": true
   },
   {
    "chiefName": "AminMaha",
@@ -7014,7 +7399,10 @@
    "alliance": "pixies",
    "allianceTag": "PXI",
    "state": "3213",
-   "date": "2026.09.06"
+   "date": "2026.09.06",
+   "labyrinth": 1148,
+   "labyrinthRank": 80,
+   "labyrinthAmbiguous": true
   },
   {
    "chiefName": "Afiyy is Tired",
@@ -7519,5 +7907,1217 @@
    "state": "3213",
    "date": "2026.09.06"
   }
- ]
+ ],
+ "labyrinth": {
+  "3178": {
+   "top": 100,
+   "entries": [
+    {
+     "rank": 1,
+     "allianceTag": "TTC",
+     "chiefName": "一翦寒梅 BPlum",
+     "score": 1707
+    },
+    {
+     "rank": 2,
+     "allianceTag": "SIN",
+     "chiefName": "Eddie",
+     "score": 1661
+    },
+    {
+     "rank": 3,
+     "allianceTag": "VKR",
+     "chiefName": "Rolloᵛᵏʳ",
+     "score": 1595
+    },
+    {
+     "rank": 4,
+     "allianceTag": "UFO",
+     "chiefName": "Leoder",
+     "score": 1590
+    },
+    {
+     "rank": 5,
+     "allianceTag": "VKR",
+     "chiefName": "Peppermint",
+     "score": 1586
+    },
+    {
+     "rank": 6,
+     "allianceTag": "VKR",
+     "chiefName": "Mushroomᵛᵏʳ",
+     "score": 1568
+    },
+    {
+     "rank": 7,
+     "allianceTag": "UFO",
+     "chiefName": "Germ",
+     "score": 1510
+    },
+    {
+     "rank": 8,
+     "allianceTag": "404",
+     "chiefName": "Malibus Farm",
+     "score": 1502
+    },
+    {
+     "rank": 9,
+     "allianceTag": "TTC",
+     "chiefName": "山城大支老",
+     "score": 1497
+    },
+    {
+     "rank": 10,
+     "allianceTag": "SIN",
+     "chiefName": "ᗯinter\"✳",
+     "score": 1481
+    },
+    {
+     "rank": 11,
+     "allianceTag": "VKR",
+     "chiefName": "Schamser",
+     "score": 1477
+    },
+    {
+     "rank": 12,
+     "allianceTag": "UFO",
+     "chiefName": "Goody~",
+     "score": 1470
+    },
+    {
+     "rank": 13,
+     "allianceTag": "UFO",
+     "chiefName": "Nibbler",
+     "score": 1444
+    },
+    {
+     "rank": 14,
+     "allianceTag": "UFO",
+     "chiefName": "Chytras ᴬᴺᴸ",
+     "score": 1441
+    },
+    {
+     "rank": 15,
+     "allianceTag": "UFO",
+     "chiefName": "Ms Get Down",
+     "score": 1436
+    },
+    {
+     "rank": 16,
+     "allianceTag": "UFO",
+     "chiefName": "Fangs of Maple",
+     "score": 1400
+    },
+    {
+     "rank": 17,
+     "allianceTag": "UFO",
+     "chiefName": "Team Biscuit",
+     "score": 1399
+    },
+    {
+     "rank": 18,
+     "allianceTag": "TTC",
+     "chiefName": "卡卡～kaka",
+     "score": 1399
+    },
+    {
+     "rank": 19,
+     "allianceTag": "UFO",
+     "chiefName": "Raggylug",
+     "score": 1387
+    },
+    {
+     "rank": 20,
+     "allianceTag": "TTC",
+     "chiefName": "Zephon",
+     "score": 1363
+    },
+    {
+     "rank": 21,
+     "allianceTag": "UFO",
+     "chiefName": "Awares",
+     "score": 1362
+    },
+    {
+     "rank": 22,
+     "allianceTag": "TTC",
+     "chiefName": "ZeroTseng",
+     "score": 1360
+    },
+    {
+     "rank": 23,
+     "allianceTag": "UFO",
+     "chiefName": "Interstellar",
+     "score": 1359
+    },
+    {
+     "rank": 24,
+     "allianceTag": "SIN",
+     "chiefName": "FedeC",
+     "score": 1359
+    },
+    {
+     "rank": 25,
+     "allianceTag": "TTC",
+     "chiefName": "肛莖戀精速濕DK",
+     "score": 1348
+    },
+    {
+     "rank": 26,
+     "allianceTag": "SIN",
+     "chiefName": "᠅GuGu᠅",
+     "score": 1334
+    },
+    {
+     "rank": 27,
+     "allianceTag": "VKR",
+     "chiefName": "Ragnar 071603",
+     "score": 1333
+    },
+    {
+     "rank": 28,
+     "allianceTag": "TTC",
+     "chiefName": "開封優格保七天",
+     "score": 1326
+    },
+    {
+     "rank": 29,
+     "allianceTag": "SIN",
+     "chiefName": "Kloss",
+     "score": 1325
+    },
+    {
+     "rank": 30,
+     "allianceTag": "TEA",
+     "chiefName": "Flexx",
+     "score": 1318
+    },
+    {
+     "rank": 31,
+     "allianceTag": "VKR",
+     "chiefName": "Chaky",
+     "score": 1314
+    },
+    {
+     "rank": 32,
+     "allianceTag": "VKR",
+     "chiefName": "Ritz",
+     "score": 1314
+    },
+    {
+     "rank": 33,
+     "allianceTag": "VKR",
+     "chiefName": "ExBasti",
+     "score": 1308
+    },
+    {
+     "rank": 34,
+     "allianceTag": "VKR",
+     "chiefName": "Fight to the End",
+     "score": 1303
+    },
+    {
+     "rank": 35,
+     "allianceTag": "SIN",
+     "chiefName": "Hassikkome",
+     "score": 1303
+    },
+    {
+     "rank": 36,
+     "allianceTag": "VKR",
+     "chiefName": "FMC",
+     "score": 1299
+    },
+    {
+     "rank": 37,
+     "allianceTag": "Ttc",
+     "chiefName": "十二少",
+     "score": 1296
+    },
+    {
+     "rank": 38,
+     "allianceTag": "SIN",
+     "chiefName": "eneny",
+     "score": 1293
+    },
+    {
+     "rank": 39,
+     "allianceTag": "TTC",
+     "chiefName": "浮雲子",
+     "score": 1292
+    },
+    {
+     "rank": 40,
+     "allianceTag": "VKR",
+     "chiefName": "I'm Awesome!",
+     "score": 1289
+    },
+    {
+     "rank": 41,
+     "allianceTag": "VKR",
+     "chiefName": "Schnitzel Ninja",
+     "score": 1286
+    },
+    {
+     "rank": 42,
+     "allianceTag": "VKR",
+     "chiefName": "Tayxo",
+     "score": 1272
+    },
+    {
+     "rank": 43,
+     "allianceTag": "VKR",
+     "chiefName": "Dublin 1890",
+     "score": 1272
+    },
+    {
+     "rank": 44,
+     "allianceTag": "SIN",
+     "chiefName": "kr1dm",
+     "score": 1270
+    },
+    {
+     "rank": 45,
+     "allianceTag": "UFO",
+     "chiefName": "LE RAT CANAM",
+     "score": 1262
+    },
+    {
+     "rank": 46,
+     "allianceTag": "UFO",
+     "chiefName": "Shaka",
+     "score": 1261
+    },
+    {
+     "rank": 47,
+     "allianceTag": "VKR",
+     "chiefName": "Micky",
+     "score": 1259
+    },
+    {
+     "rank": 48,
+     "allianceTag": "VKR",
+     "chiefName": "MrWaterLemonᵛᵏʳ",
+     "score": 1256
+    },
+    {
+     "rank": 49,
+     "allianceTag": "TTC",
+     "chiefName": "雲舞飛揚",
+     "score": 1256
+    },
+    {
+     "rank": 50,
+     "allianceTag": "SIN",
+     "chiefName": "Chaos",
+     "score": 1255
+    },
+    {
+     "rank": 51,
+     "allianceTag": "VKR",
+     "chiefName": "3C SPCX",
+     "score": 1254
+    },
+    {
+     "rank": 52,
+     "allianceTag": "TTC",
+     "chiefName": "宮美春洽",
+     "score": 1248
+    },
+    {
+     "rank": 53,
+     "allianceTag": "TTC",
+     "chiefName": "是RJ",
+     "score": 1244
+    },
+    {
+     "rank": 54,
+     "allianceTag": "VKR",
+     "chiefName": "ExChaosᵛᵏʳ",
+     "score": 1243
+    },
+    {
+     "rank": 55,
+     "allianceTag": "VKR",
+     "chiefName": "Lucianᵛᵏʳ",
+     "score": 1234
+    },
+    {
+     "rank": 56,
+     "allianceTag": "TTC",
+     "chiefName": "陳平安 Ping an",
+     "score": 1229
+    },
+    {
+     "rank": 57,
+     "allianceTag": "VKR",
+     "chiefName": "Sanica",
+     "score": 1228
+    },
+    {
+     "rank": 58,
+     "allianceTag": "VKR",
+     "chiefName": "Gang&ter 007",
+     "score": 1224
+    },
+    {
+     "rank": 59,
+     "allianceTag": "UFO",
+     "chiefName": "ღ Mai ღ",
+     "score": 1222
+    },
+    {
+     "rank": 60,
+     "allianceTag": "VKR",
+     "chiefName": "champoiii",
+     "score": 1221
+    },
+    {
+     "rank": 61,
+     "allianceTag": "TTC",
+     "chiefName": "Dharma 咖啡",
+     "score": 1220
+    },
+    {
+     "rank": 62,
+     "allianceTag": "VKR",
+     "chiefName": "Spike12345",
+     "score": 1216
+    },
+    {
+     "rank": 63,
+     "allianceTag": "UFO",
+     "chiefName": "Paulo'",
+     "score": 1214
+    },
+    {
+     "rank": 64,
+     "allianceTag": "VKR",
+     "chiefName": "SHREKᵛᵏʳ",
+     "score": 1214
+    },
+    {
+     "rank": 65,
+     "allianceTag": "Ttc",
+     "chiefName": "小卡卡～Kaka",
+     "score": 1214
+    },
+    {
+     "rank": 66,
+     "allianceTag": "TTC",
+     "chiefName": "小建的天空",
+     "score": 1213
+    },
+    {
+     "rank": 67,
+     "allianceTag": "SIN",
+     "chiefName": "Nar hates philly",
+     "score": 1201
+    },
+    {
+     "rank": 68,
+     "allianceTag": "VKR",
+     "chiefName": "Hnoo",
+     "score": 1201
+    },
+    {
+     "rank": 69,
+     "allianceTag": "Ttc",
+     "chiefName": "Fine",
+     "score": 1199
+    },
+    {
+     "rank": 70,
+     "allianceTag": "UFO",
+     "chiefName": "Cruella de Vil",
+     "score": 1197
+    },
+    {
+     "rank": 71,
+     "allianceTag": "TTC",
+     "chiefName": "甲骨文Oracle",
+     "score": 1194
+    },
+    {
+     "rank": 72,
+     "allianceTag": "TEA",
+     "chiefName": "Rocklong",
+     "score": 1194
+    },
+    {
+     "rank": 73,
+     "allianceTag": "TTC",
+     "chiefName": "SHooWᶜ",
+     "score": 1193
+    },
+    {
+     "rank": 74,
+     "allianceTag": "VKR",
+     "chiefName": "Aashman",
+     "score": 1191
+    },
+    {
+     "rank": 75,
+     "allianceTag": "TEA",
+     "chiefName": "GREYBEARD",
+     "score": 1190
+    },
+    {
+     "rank": 76,
+     "allianceTag": "SIN",
+     "chiefName": "Artemis Frost",
+     "score": 1188
+    },
+    {
+     "rank": 77,
+     "allianceTag": "UFO",
+     "chiefName": "MAJD MAJD",
+     "score": 1187
+    },
+    {
+     "rank": 78,
+     "allianceTag": "VKR",
+     "chiefName": "ColossusX",
+     "score": 1184
+    },
+    {
+     "rank": 79,
+     "allianceTag": "SIN",
+     "chiefName": "LordTheGreatest",
+     "score": 1184
+    },
+    {
+     "rank": 80,
+     "allianceTag": "TTC",
+     "chiefName": "藍莓 BBerry",
+     "score": 1183
+    },
+    {
+     "rank": 81,
+     "allianceTag": "SIN",
+     "chiefName": "Dziadek",
+     "score": 1182
+    },
+    {
+     "rank": 82,
+     "allianceTag": "VKR",
+     "chiefName": "MR X",
+     "score": 1182
+    },
+    {
+     "rank": 83,
+     "allianceTag": "TTC",
+     "chiefName": "fighting 1234",
+     "score": 1181
+    },
+    {
+     "rank": 84,
+     "allianceTag": "TTC",
+     "chiefName": "Tesric",
+     "score": 1173
+    },
+    {
+     "rank": 85,
+     "allianceTag": "TTC",
+     "chiefName": "打熊打熊123",
+     "score": 1173
+    },
+    {
+     "rank": 86,
+     "allianceTag": "VKR",
+     "chiefName": "Bunty",
+     "score": 1170
+    },
+    {
+     "rank": 87,
+     "allianceTag": "TTC",
+     "chiefName": "多尼多尼·喬巴",
+     "score": 1165
+    },
+    {
+     "rank": 88,
+     "allianceTag": "VKR",
+     "chiefName": "warrior wolf",
+     "score": 1164
+    },
+    {
+     "rank": 89,
+     "allianceTag": "VKR",
+     "chiefName": "Eddy",
+     "score": 1164
+    },
+    {
+     "rank": 90,
+     "allianceTag": "UFO",
+     "chiefName": "#3174joemama",
+     "score": 1160
+    },
+    {
+     "rank": 91,
+     "allianceTag": "VKR",
+     "chiefName": "kaliグラ",
+     "score": 1159
+    },
+    {
+     "rank": 92,
+     "allianceTag": "SIN",
+     "chiefName": "Kookie",
+     "score": 1159
+    },
+    {
+     "rank": 93,
+     "allianceTag": "UFO",
+     "chiefName": "PsyPat",
+     "score": 1156
+    },
+    {
+     "rank": 94,
+     "allianceTag": "SIN",
+     "chiefName": "elvs",
+     "score": 1155
+    },
+    {
+     "rank": 95,
+     "allianceTag": "SIN",
+     "chiefName": "Klaus",
+     "score": 1155
+    },
+    {
+     "rank": 96,
+     "allianceTag": "TTC",
+     "chiefName": "ALEKS",
+     "score": 1155
+    },
+    {
+     "rank": 97,
+     "allianceTag": "VKR",
+     "chiefName": "Allis Tsoi",
+     "score": 1154
+    },
+    {
+     "rank": 98,
+     "allianceTag": "SIN",
+     "chiefName": "Kitto Katto",
+     "score": 1153
+    },
+    {
+     "rank": 99,
+     "allianceTag": "VKR",
+     "chiefName": "huam31",
+     "score": 1153
+    },
+    {
+     "rank": 100,
+     "allianceTag": "TEA",
+     "chiefName": "Aurora_",
+     "score": 1153
+    }
+   ]
+  },
+  "3213": {
+   "top": 100,
+   "entries": [
+    {
+     "rank": 1,
+     "allianceTag": "INK",
+     "chiefName": "Unknown°",
+     "score": 1675
+    },
+    {
+     "rank": 2,
+     "allianceTag": "ICE",
+     "chiefName": "Anonim",
+     "score": 1556
+    },
+    {
+     "rank": 3,
+     "allianceTag": "INK",
+     "chiefName": "Ricky_Flush",
+     "score": 1537
+    },
+    {
+     "rank": 4,
+     "allianceTag": "INK",
+     "chiefName": "Jimbo",
+     "score": 1474
+    },
+    {
+     "rank": 5,
+     "allianceTag": "ICE",
+     "chiefName": "Warlock",
+     "score": 1433
+    },
+    {
+     "rank": 6,
+     "allianceTag": "INK",
+     "chiefName": "᠅ᔆD E A T Hᔆ᠅",
+     "score": 1420
+    },
+    {
+     "rank": 7,
+     "allianceTag": "INK",
+     "chiefName": "Lava",
+     "score": 1413
+    },
+    {
+     "rank": 8,
+     "allianceTag": "ICE",
+     "chiefName": "Smilodon",
+     "score": 1406
+    },
+    {
+     "rank": 9,
+     "allianceTag": "INK",
+     "chiefName": "Alannn¶¶",
+     "score": 1385
+    },
+    {
+     "rank": 10,
+     "allianceTag": "INK",
+     "chiefName": "D~1,1",
+     "score": 1384
+    },
+    {
+     "rank": 11,
+     "allianceTag": "INK",
+     "chiefName": "dyor",
+     "score": 1376
+    },
+    {
+     "rank": 12,
+     "allianceTag": "INK",
+     "chiefName": "Zukó",
+     "score": 1359
+    },
+    {
+     "rank": 13,
+     "allianceTag": "INK",
+     "chiefName": "᠅ᔆAeloriaᔆ᠅",
+     "score": 1345
+    },
+    {
+     "rank": 14,
+     "allianceTag": "INK",
+     "chiefName": "juner",
+     "score": 1333
+    },
+    {
+     "rank": 15,
+     "allianceTag": "ICE",
+     "chiefName": "Kempu",
+     "score": 1332
+    },
+    {
+     "rank": 16,
+     "allianceTag": "INK",
+     "chiefName": "Melpusa14",
+     "score": 1322
+    },
+    {
+     "rank": 17,
+     "allianceTag": "PXI",
+     "chiefName": "Magician OncLos",
+     "score": 1322
+    },
+    {
+     "rank": 18,
+     "allianceTag": "ICE",
+     "chiefName": "yorU",
+     "score": 1322
+    },
+    {
+     "rank": 19,
+     "allianceTag": "INK",
+     "chiefName": "Agnes",
+     "score": 1318
+    },
+    {
+     "rank": 20,
+     "allianceTag": "INK",
+     "chiefName": "Zaki ᨓᴵᴺᴬ",
+     "score": 1304
+    },
+    {
+     "rank": 21,
+     "allianceTag": "INK",
+     "chiefName": "Surati",
+     "score": 1303
+    },
+    {
+     "rank": 22,
+     "allianceTag": "INK",
+     "chiefName": "ily",
+     "score": 1300
+    },
+    {
+     "rank": 23,
+     "allianceTag": "INK",
+     "chiefName": "Chemsou",
+     "score": 1298
+    },
+    {
+     "rank": 24,
+     "allianceTag": "ICE",
+     "chiefName": "Kempu2",
+     "score": 1298
+    },
+    {
+     "rank": 25,
+     "allianceTag": "INK",
+     "chiefName": "H E N N N",
+     "score": 1297
+    },
+    {
+     "rank": 26,
+     "allianceTag": "ICE",
+     "chiefName": "RIELLS",
+     "score": 1295
+    },
+    {
+     "rank": 27,
+     "allianceTag": "INK",
+     "chiefName": "Gin",
+     "score": 1294
+    },
+    {
+     "rank": 28,
+     "allianceTag": "INK",
+     "chiefName": "Xyro",
+     "score": 1285
+    },
+    {
+     "rank": 29,
+     "allianceTag": "INK",
+     "chiefName": "IPUL",
+     "score": 1285
+    },
+    {
+     "rank": 30,
+     "allianceTag": "INK",
+     "chiefName": "Xiao`Malass",
+     "score": 1284
+    },
+    {
+     "rank": 31,
+     "allianceTag": "INK",
+     "chiefName": "Dimzy",
+     "score": 1275
+    },
+    {
+     "rank": 32,
+     "allianceTag": "ICE",
+     "chiefName": "Z4F",
+     "score": 1274
+    },
+    {
+     "rank": 33,
+     "allianceTag": "INK",
+     "chiefName": "Jack the Ripper",
+     "score": 1273
+    },
+    {
+     "rank": 34,
+     "allianceTag": "ICE",
+     "chiefName": "ŧāƶ475",
+     "score": 1269
+    },
+    {
+     "rank": 35,
+     "allianceTag": "INK",
+     "chiefName": "MoCha ツ",
+     "score": 1262
+    },
+    {
+     "rank": 36,
+     "allianceTag": "ICE",
+     "chiefName": "ᨓKai",
+     "score": 1261
+    },
+    {
+     "rank": 37,
+     "allianceTag": "PXI",
+     "chiefName": "乂DP乂",
+     "score": 1259
+    },
+    {
+     "rank": 38,
+     "allianceTag": "ICE",
+     "chiefName": "#PRECIOUS#{DÄYÃ}",
+     "score": 1255
+    },
+    {
+     "rank": 39,
+     "allianceTag": "INK",
+     "chiefName": "Mang Ewok",
+     "score": 1249
+    },
+    {
+     "rank": 40,
+     "allianceTag": "PXI",
+     "chiefName": "XirhoBaboy",
+     "score": 1247
+    },
+    {
+     "rank": 41,
+     "allianceTag": "INK",
+     "chiefName": "Dark_Adelia",
+     "score": 1241
+    },
+    {
+     "rank": 42,
+     "allianceTag": "INK",
+     "chiefName": "John Targaryen",
+     "score": 1240
+    },
+    {
+     "rank": 43,
+     "allianceTag": "ICE",
+     "chiefName": "Chewツ",
+     "score": 1238
+    },
+    {
+     "rank": 44,
+     "allianceTag": "ICE",
+     "chiefName": "GTO",
+     "score": 1238
+    },
+    {
+     "rank": 45,
+     "allianceTag": "INK",
+     "chiefName": "Andalusia",
+     "score": 1232
+    },
+    {
+     "rank": 46,
+     "allianceTag": "INK",
+     "chiefName": "Jott",
+     "score": 1231
+    },
+    {
+     "rank": 47,
+     "allianceTag": "ICE",
+     "chiefName": "n p c",
+     "score": 1230
+    },
+    {
+     "rank": 48,
+     "allianceTag": "INK",
+     "chiefName": "ILPYO",
+     "score": 1228
+    },
+    {
+     "rank": 49,
+     "allianceTag": "PXI",
+     "chiefName": "Soto Koya ৡ",
+     "score": 1223
+    },
+    {
+     "rank": 50,
+     "allianceTag": "ICE",
+     "chiefName": "Void spirit",
+     "score": 1218
+    },
+    {
+     "rank": 51,
+     "allianceTag": "INK",
+     "chiefName": "Bagundezz",
+     "score": 1214
+    },
+    {
+     "rank": 52,
+     "allianceTag": "INK",
+     "chiefName": "Alchemist",
+     "score": 1212
+    },
+    {
+     "rank": 53,
+     "allianceTag": "ICE",
+     "chiefName": "SANJI 19",
+     "score": 1211
+    },
+    {
+     "rank": 54,
+     "allianceTag": "ICE",
+     "chiefName": "Lucifer@69",
+     "score": 1210
+    },
+    {
+     "rank": 55,
+     "allianceTag": "PXI",
+     "chiefName": "CERTEVINCAM",
+     "score": 1208
+    },
+    {
+     "rank": 56,
+     "allianceTag": "INK",
+     "chiefName": "Pria Solo",
+     "score": 1207
+    },
+    {
+     "rank": 57,
+     "allianceTag": "ICE",
+     "chiefName": "Kempuu2",
+     "score": 1207
+    },
+    {
+     "rank": 58,
+     "allianceTag": "ICE",
+     "chiefName": "Memew",
+     "score": 1205
+    },
+    {
+     "rank": 59,
+     "allianceTag": "INK",
+     "chiefName": "Nixx",
+     "score": 1204
+    },
+    {
+     "rank": 60,
+     "allianceTag": "PXI",
+     "chiefName": "ᨓᴾˣᴵᨓ MƐLOΝ",
+     "score": 1200
+    },
+    {
+     "rank": 61,
+     "allianceTag": "PXI",
+     "chiefName": "WANG LINN",
+     "score": 1192
+    },
+    {
+     "rank": 62,
+     "allianceTag": "INK",
+     "chiefName": "嚶嚶美代子",
+     "score": 1191
+    },
+    {
+     "rank": 63,
+     "allianceTag": "INK",
+     "chiefName": "Jigglypuff",
+     "score": 1190
+    },
+    {
+     "rank": 64,
+     "allianceTag": "INK",
+     "chiefName": "meeHOT",
+     "score": 1189
+    },
+    {
+     "rank": 65,
+     "allianceTag": "INK",
+     "chiefName": "Jin Runcandel",
+     "score": 1187
+    },
+    {
+     "rank": 66,
+     "allianceTag": "ICE",
+     "chiefName": "Kempuu",
+     "score": 1186
+    },
+    {
+     "rank": 67,
+     "allianceTag": "INK",
+     "chiefName": "IronLeaf Ali",
+     "score": 1182
+    },
+    {
+     "rank": 68,
+     "allianceTag": "INK",
+     "chiefName": "Suny",
+     "score": 1180
+    },
+    {
+     "rank": 69,
+     "allianceTag": "INK",
+     "chiefName": "Axell_Mackenzie",
+     "score": 1176
+    },
+    {
+     "rank": 70,
+     "allianceTag": "ICE",
+     "chiefName": "Gintoki",
+     "score": 1176
+    },
+    {
+     "rank": 71,
+     "allianceTag": "INK",
+     "chiefName": "jellyfish",
+     "score": 1172
+    },
+    {
+     "rank": 72,
+     "allianceTag": "ICE",
+     "chiefName": "Zoro##",
+     "score": 1171
+    },
+    {
+     "rank": 73,
+     "allianceTag": "ICE",
+     "chiefName": "Leilani",
+     "score": 1168
+    },
+    {
+     "rank": 74,
+     "allianceTag": "PXI",
+     "chiefName": "XiaoBai",
+     "score": 1164
+    },
+    {
+     "rank": 75,
+     "allianceTag": "ICE",
+     "chiefName": "hening",
+     "score": 1162
+    },
+    {
+     "rank": 76,
+     "allianceTag": "PXI",
+     "chiefName": "Lil Jim",
+     "score": 1155
+    },
+    {
+     "rank": 77,
+     "allianceTag": "INK",
+     "chiefName": "Leinad",
+     "score": 1155
+    },
+    {
+     "rank": 78,
+     "allianceTag": "INK",
+     "chiefName": "Rajasatan",
+     "score": 1151
+    },
+    {
+     "rank": 79,
+     "allianceTag": "ICE",
+     "chiefName": "KER`",
+     "score": 1149
+    },
+    {
+     "rank": 80,
+     "allianceTag": "PXI",
+     "chiefName": "Lil Jim",
+     "score": 1148
+    },
+    {
+     "rank": 81,
+     "allianceTag": "INK",
+     "chiefName": "TENZO",
+     "score": 1145
+    },
+    {
+     "rank": 82,
+     "allianceTag": "ICE",
+     "chiefName": "HVP",
+     "score": 1138
+    },
+    {
+     "rank": 83,
+     "allianceTag": "ICE",
+     "chiefName": "mini desan1987",
+     "score": 1137
+    },
+    {
+     "rank": 84,
+     "allianceTag": "INK",
+     "chiefName": "BULL Soft Spoken",
+     "score": 1136
+    },
+    {
+     "rank": 85,
+     "allianceTag": "INK",
+     "chiefName": "¥5AM50N¥",
+     "score": 1136
+    },
+    {
+     "rank": 86,
+     "allianceTag": "ICE",
+     "chiefName": "ST4NZ475",
+     "score": 1128
+    },
+    {
+     "rank": 87,
+     "allianceTag": "INK",
+     "chiefName": "Toghoom",
+     "score": 1127
+    },
+    {
+     "rank": 88,
+     "allianceTag": "PXI",
+     "chiefName": "\"Tiko\"ৡ",
+     "score": 1122
+    },
+    {
+     "rank": 89,
+     "allianceTag": "INK",
+     "chiefName": "Kaktusss",
+     "score": 1120
+    },
+    {
+     "rank": 90,
+     "allianceTag": "ICE",
+     "chiefName": "ᴺᴬᴺᴼ",
+     "score": 1120
+    },
+    {
+     "rank": 91,
+     "allianceTag": "INK",
+     "chiefName": "Clara",
+     "score": 1120
+    },
+    {
+     "rank": 92,
+     "allianceTag": "-",
+     "chiefName": "LUMIÈRE",
+     "score": 1115
+    },
+    {
+     "rank": 93,
+     "allianceTag": "MIT",
+     "chiefName": "Prince JhaySean",
+     "score": 1107
+    },
+    {
+     "rank": 94,
+     "allianceTag": "ICE",
+     "chiefName": "JANGKRICK",
+     "score": 1107
+    },
+    {
+     "rank": 95,
+     "allianceTag": "INK",
+     "chiefName": "Neko Marah",
+     "score": 1104
+    },
+    {
+     "rank": 96,
+     "allianceTag": "ICE",
+     "chiefName": "PRECIOUS GRÂFË",
+     "score": 1101
+    },
+    {
+     "rank": 97,
+     "allianceTag": "ICE",
+     "chiefName": "Hisoka_Morow",
+     "score": 1097
+    },
+    {
+     "rank": 98,
+     "allianceTag": "ICE",
+     "chiefName": "What The Duck",
+     "score": 1097
+    },
+    {
+     "rank": 99,
+     "allianceTag": "INK",
+     "chiefName": "BIXXI malas",
+     "score": 1093
+    },
+    {
+     "rank": 100,
+     "allianceTag": "ICE",
+     "chiefName": "A Q U I L A",
+     "score": 1091
+    }
+   ]
+  }
+ }
 }
