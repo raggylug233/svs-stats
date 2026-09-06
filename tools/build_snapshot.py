@@ -100,23 +100,27 @@ ALLIANCES = {
     "3178_TTC": {
         "tag": "TTC", "name": "東都", "state": "3178",
         # Captured in two passes. The first stopped 12 members into R1; IMG_2775
-        # and IMG_2776 re-shot that section about six hours later, by which time
-        # R1 had gone from 16 members to 13 (開心遊玩就是帥 and two others left,
-        # ~502M between them). So the roster is complete, but its R1 is six hours
-        # younger than the rest, and the Info screen -- shot in the first pass --
-        # now describes an alliance that no longer exists: it reads 88 members and
-        # 25,173,668,327 power against the 85 members we hold.
+        # and IMG_2776 re-shot that section about six hours later, when R1 read 13
+        # rather than 16. The re-shot Info screen still reads 88 members, so those
+        # three did not leave the alliance -- they were promoted out of R1, into an
+        # R2 that the first pass photographed while it was still empty:
         #
-        # memberCount is therefore taken from the rank-section headers, which are
-        # finer-grained than the Members line and all agree at the later time:
-        # R5 1 + R4 11 + R3 60 + R2 0 + R1 13 = 85. infoTotalPower is omitted
-        # rather than asserted stale, which skips the total-power cross-check for
-        # this alliance alone. Re-shoot the Alliance Info screen to restore it.
+        #   first pass  R5 1 + R4 11 + R3 60 + R2 0 + R1 16 = 88
+        #   now         R5 1 + R4 11 + R3 60 + R2 3 + R1 13 = 88
+        #
+        # So R2 is the one section never photographed in its current state, and it
+        # holds exactly the 3 members we are short (513,091,454 power, ~171M each).
+        # The alliance total moved only +11,123,127 across those six hours, so this
+        # is a rank reshuffle rather than real growth.
         #
         # IMG_2738 is absent from the batch, but R3 still totals its full 60
         # across 2737 -> 2739, so that missing frame held nothing new.
-        "memberCount": 85, "memberCapacity": 100,
-        "infoImage": "IMG_2731.PNG",
+        "memberCount": 88, "memberCapacity": 100,
+        "transcribedCount": 85,
+        "partialNote": "R2 not captured since 3 members were promoted into it; "
+                       "85 of 88 recorded",
+        "infoTotalPower": 25_184_791_454,
+        "infoImage": "TTC_info_reshoot.PNG",
         "rosterImages": ["IMG_%d.PNG" % n for n in range(2732, 2738)]
                         + ["IMG_2739.PNG", "IMG_2775.PNG", "IMG_2776.PNG"],
         "rankLabels": {"R4": "연맹 계급 4", "R3": "연맹 계급 3",

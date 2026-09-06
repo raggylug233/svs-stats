@@ -80,9 +80,12 @@
    "tag": "TTC",
    "name": "東都",
    "state": "3178",
-   "memberCount": 85,
+   "memberCount": 88,
    "memberCapacity": 100,
-   "infoImage": "IMG_2731.PNG",
+   "transcribedCount": 85,
+   "partialNote": "R2 not captured since 3 members were promoted into it; 85 of 88 recorded",
+   "infoTotalPower": 25184791454,
+   "infoImage": "TTC_info_reshoot.PNG",
    "rosterImages": [
     "IMG_2732.PNG",
     "IMG_2733.PNG",
@@ -108,7 +111,8 @@
     "R2": 0,
     "R1": 13
    },
-   "totalPower": 24671700000
+   "totalPower": 24671700000,
+   "partial": true
   },
   {
    "tag": "SIN",

@@ -149,7 +149,7 @@ Opening `index.html` straight off disk will not work — the browser blocks the
 |---|---|---|---|
 | 3178 | `[VKR]` Vikings | 99 | 33.51B |
 | 3178 | `[UFO]` Aliens | 94 | 25.29B |
-| 3178 | `[TTC]` 東都 | 85 † | 24.67B † |
+| 3178 | `[TTC]` 東都 | 85 of 88 † | 24.67B † |
 | 3178 | `[SIN]` BeechesOfChaos | 99 | 24.92B |
 | 3178 | `[TEA]` TheEternalArt | 60 | 10.33B |
 | 3213 | `[INK]` INK | 98 | 31.59B |
@@ -159,14 +159,20 @@ Opening `index.html` straight off disk will not work — the browser blocks the
 718 players total.
 
 † `[TTC]` was captured in two passes. The first stopped 12 members into R1;
-`IMG_2775`–`IMG_2776` re-shot that section about six hours later, by which point
-R1 had gone from 16 members to 13 — three left, ~502M between them. The roster
-is complete, but its R1 is six hours younger than the rest, and the Alliance
-Info screen from the first pass now describes an alliance that no longer exists
-(88 members / 25.17B against the 85 we hold). Its member count therefore comes
-from the rank-section headers, which are finer-grained and all agree at the
-later time (1 + 11 + 60 + 0 + 13 = 85), and the total-power cross-check is
-skipped for this alliance alone. Re-shoot its Info screen to restore it.
+`IMG_2775`–`IMG_2776` re-shot that section six hours later, when R1 read 13
+rather than 16. A re-shot Info screen still reads **88 members**, so those three
+did not leave — they were promoted out of R1, into an R2 that the first pass had
+photographed while it was still empty:
+
+```
+first pass  R5 1 + R4 11 + R3 60 + R2 0 + R1 16 = 88
+now         R5 1 + R4 11 + R3 60 + R2 3 + R1 13 = 88
+```
+
+R2 is therefore the one section never photographed in its current state, and it
+holds exactly the 3 members the roster is short (513,091,454 power, ~171M each).
+The alliance total moved only +11,123,127 across those six hours, so this is a
+rank reshuffle rather than growth. Shoot TTC's R2 section to close it out.
 
 This batch covers state **3213** for the first time, and `[TEA]` TheEternalArt
 is new in 3178. State 3073, covered on 2026.08.08, was not captured this time —
