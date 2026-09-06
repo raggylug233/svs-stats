@@ -37,6 +37,13 @@
   const fmtPower = (n) =>
     n >= 1e9 ? (n / 1e9).toFixed(2) + "B" : n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : fmtInt(n);
 
+  // Some rosters are only partly captured — the screenshots ran out before the
+  // list did. Their totals are real but low, so mark them everywhere they show
+  // up rather than letting a short bar read as a genuine decline.
+  const PARTIAL_MARK = "\u2020"; // dagger
+  const partialTitle = (a) =>
+    `${a.partialNote} — totals for this alliance are lower than reality`;
+
   /* ---------- state ---------- */
 
   const state = {
@@ -206,7 +213,9 @@
         units.set(id, {
           id,
           state: a.state,
-          title: byState ? `State ${a.state}` : `${a.tag} — ${a.name}`,
+          title: byState
+            ? `State ${a.state}`
+            : `${a.tag} — ${a.name}${a.partial ? " " + PARTIAL_MARK : ""}`,
           sub: byState ? [] : `State ${a.state}`,
           cells: new Map(),
           total: 0,
@@ -385,7 +394,13 @@
     $("#alliance-table tbody").replaceChildren(
       ...rows.map(({ a, mine, total }) => {
         const tr = el("tr");
-        tr.appendChild(el("td", { text: `[${a.tag}] ${a.name}` }));
+        const nameCell = el("td", { text: `[${a.tag}] ${a.name}` });
+        if (a.partial) {
+          nameCell.appendChild(
+            el("span", { class: "partial", text: " " + PARTIAL_MARK, title: partialTitle(a) })
+          );
+        }
+        tr.appendChild(nameCell);
         tr.appendChild(el("td", { text: a.state }));
         tr.appendChild(el("td", { class: "num", text: fmtInt(mine.length) }));
         tr.appendChild(el("td", { class: "num", text: fmtB(total) }));
@@ -408,6 +423,16 @@
         return tr;
       })
     );
+
+    // Spell the dagger out, so the caveat does not depend on hovering a tooltip.
+    const short = rows.map(({ a }) => a).filter((a) => a.partial);
+    const note = $("#partial-note");
+    note.hidden = !short.length;
+    note.textContent = short.length
+      ? `${PARTIAL_MARK} ` +
+        short.map((a) => `[${a.tag}] ${a.name}: ${a.partialNote}`).join("; ") +
+        ". Their totals and bars are lower than reality."
+      : "";
   }
 
   /* ---------- player table ---------- */
@@ -537,7 +562,9 @@
           });
           row.append(box);
           row.appendChild(el("span", { class: "tag", text: `[${a.tag}]` }));
-          row.appendChild(el("span", { text: a.name }));
+          row.appendChild(
+            el("span", { text: a.name + (a.partial ? " " + PARTIAL_MARK : "") })
+          );
           row.appendChild(el("span", { class: "n", text: String(a.memberCount) }));
           g.appendChild(row);
         }

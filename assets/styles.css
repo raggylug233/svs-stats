@@ -248,6 +248,9 @@ main > * { min-width: 0; }
 }
 
 .panel-sub { margin: 6px 0 0; color: var(--ink-3); font-size: 13px; }
+/* Caveat under a table whose numbers are knowingly incomplete. */
+.panel-note { margin: 10px 2px 0; color: var(--ink-3); font-size: 12px; line-height: 1.5; }
+.partial { color: var(--ink-3); cursor: help; }
 
 /* ---------- legend ---------- */
 
