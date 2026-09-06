@@ -99,18 +99,26 @@ ALLIANCES = {
     },
     "3178_TTC": {
         "tag": "TTC", "name": "東都", "state": "3178",
-        "memberCount": 88, "memberCapacity": 100,
-        # The capture stopped partway through R1: the info screen says 88 members
-        # and the R1 header says 16, but only the first 4 R1 cards were
-        # photographed. R5/R4/R3/R2 are complete and each matches its own header,
-        # so the shortfall is exactly those 12 R1 members. IMG_2738 is also absent
-        # from the batch, but R3 still totals its full 60 across 2737 -> 2739, so
-        # that missing frame held nothing new.
-        "transcribedCount": 76,
-        "partialNote": "roster capture stopped 12 members into R1; 76 of 88 recorded",
-        "infoTotalPower": 25_173_668_327,
+        # Captured in two passes. The first stopped 12 members into R1; IMG_2775
+        # and IMG_2776 re-shot that section about six hours later, by which time
+        # R1 had gone from 16 members to 13 (開心遊玩就是帥 and two others left,
+        # ~502M between them). So the roster is complete, but its R1 is six hours
+        # younger than the rest, and the Info screen -- shot in the first pass --
+        # now describes an alliance that no longer exists: it reads 88 members and
+        # 25,173,668,327 power against the 85 members we hold.
+        #
+        # memberCount is therefore taken from the rank-section headers, which are
+        # finer-grained than the Members line and all agree at the later time:
+        # R5 1 + R4 11 + R3 60 + R2 0 + R1 13 = 85. infoTotalPower is omitted
+        # rather than asserted stale, which skips the total-power cross-check for
+        # this alliance alone. Re-shoot the Alliance Info screen to restore it.
+        #
+        # IMG_2738 is absent from the batch, but R3 still totals its full 60
+        # across 2737 -> 2739, so that missing frame held nothing new.
+        "memberCount": 85, "memberCapacity": 100,
         "infoImage": "IMG_2731.PNG",
-        "rosterImages": ["IMG_%d.PNG" % n for n in range(2732, 2738)] + ["IMG_2739.PNG"],
+        "rosterImages": ["IMG_%d.PNG" % n for n in range(2732, 2738)]
+                        + ["IMG_2739.PNG", "IMG_2775.PNG", "IMG_2776.PNG"],
         "rankLabels": {"R4": "연맹 계급 4", "R3": "연맹 계급 3",
                        "R2": "연맹 계급 2", "R1": "연맹 계급 1"},
     },

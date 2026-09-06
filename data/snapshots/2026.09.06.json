@@ -4,7 +4,7 @@
   "3178",
   "3213"
  ],
- "playerCount": 709,
+ "playerCount": 718,
  "alliances": [
   {
    "tag": "VKR",
@@ -80,11 +80,8 @@
    "tag": "TTC",
    "name": "東都",
    "state": "3178",
-   "memberCount": 88,
+   "memberCount": 85,
    "memberCapacity": 100,
-   "transcribedCount": 76,
-   "partialNote": "roster capture stopped 12 members into R1; 76 of 88 recorded",
-   "infoTotalPower": 25173668327,
    "infoImage": "IMG_2731.PNG",
    "rosterImages": [
     "IMG_2732.PNG",
@@ -93,7 +90,9 @@
     "IMG_2735.PNG",
     "IMG_2736.PNG",
     "IMG_2737.PNG",
-    "IMG_2739.PNG"
+    "IMG_2739.PNG",
+    "IMG_2775.PNG",
+    "IMG_2776.PNG"
    ],
    "rankLabels": {
     "R4": "연맹 계급 4",
@@ -107,10 +106,9 @@
     "R4": 11,
     "R3": 60,
     "R2": 0,
-    "R1": 4
+    "R1": 13
    },
-   "totalPower": 23525600000,
-   "partial": true
+   "totalPower": 24671700000
   },
   {
    "tag": "SIN",
@@ -2972,10 +2970,60 @@
    "date": "2026.09.06"
   },
   {
-   "chiefName": "MOAZAM 123",
-   "power": 104600000,
+   "chiefName": "比格飄月",
+   "power": 297100000,
+   "rank": "R1",
+   "furnace": "fc7",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "jodry",
+   "power": 203400000,
+   "rank": "R1",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "男精紅姐",
+   "power": 182400000,
+   "rank": "R1",
+   "furnace": "fc6",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "Snails",
+   "power": 175000000,
    "rank": "R1",
    "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "小甲骨文Oracle",
+   "power": 124400000,
+   "rank": "R1",
+   "furnace": "fc1",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "HiWinnie",
+   "power": 124300000,
+   "rank": "R1",
+   "furnace": "fc2",
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",
@@ -2992,10 +3040,50 @@
    "date": "2026.09.06"
   },
   {
-   "chiefName": "開心遊玩就是帥",
-   "power": 143800000,
+   "chiefName": "MOAZAM 123",
+   "power": 104600000,
    "rank": "R1",
-   "furnace": "fc4",
+   "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "小羽兒",
+   "power": 99200000,
+   "rank": "R1",
+   "furnace": "fc3",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "Hzy",
+   "power": 49600000,
+   "rank": "R1",
+   "furnace": "f28",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "Titan",
+   "power": 30400000,
+   "rank": "R1",
+   "furnace": "f27",
+   "alliance": "東都",
+   "allianceTag": "TTC",
+   "state": "3178",
+   "date": "2026.09.06"
+  },
+  {
+   "chiefName": "Little zZZ",
+   "power": 4100000,
+   "rank": "R1",
+   "furnace": "f19",
    "alliance": "東都",
    "allianceTag": "TTC",
    "state": "3178",

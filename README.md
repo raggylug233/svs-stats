@@ -149,19 +149,24 @@ Opening `index.html` straight off disk will not work — the browser blocks the
 |---|---|---|---|
 | 3178 | `[VKR]` Vikings | 99 | 33.51B |
 | 3178 | `[UFO]` Aliens | 94 | 25.29B |
-| 3178 | `[TTC]` 東都 | 76 of 88 † | 23.53B † |
+| 3178 | `[TTC]` 東都 | 85 † | 24.67B † |
 | 3178 | `[SIN]` BeechesOfChaos | 99 | 24.92B |
 | 3178 | `[TEA]` TheEternalArt | 60 | 10.33B |
 | 3213 | `[INK]` INK | 98 | 31.59B |
 | 3213 | `[ICE]` TUBIG | 90 | 25.68B |
 | 3213 | `[PXI]` pixies | 93 | 16.43B |
 
-709 players total.
+718 players total.
 
-† The `[TTC]` capture stopped 12 members into R1 — R5/R4/R3/R2 are complete and
-each matches its own header, but 12 R1 members were never photographed, so its
-count and total power understate reality. Re-shoot the tail of that roster and
-re-run the build to close it out.
+† `[TTC]` was captured in two passes. The first stopped 12 members into R1;
+`IMG_2775`–`IMG_2776` re-shot that section about six hours later, by which point
+R1 had gone from 16 members to 13 — three left, ~502M between them. The roster
+is complete, but its R1 is six hours younger than the rest, and the Alliance
+Info screen from the first pass now describes an alliance that no longer exists
+(88 members / 25.17B against the 85 we hold). Its member count therefore comes
+from the rank-section headers, which are finer-grained and all agree at the
+later time (1 + 11 + 60 + 0 + 13 = 85), and the total-power cross-check is
+skipped for this alliance alone. Re-shoot its Info screen to restore it.
 
 This batch covers state **3213** for the first time, and `[TEA]` TheEternalArt
 is new in 3178. State 3073, covered on 2026.08.08, was not captured this time —
