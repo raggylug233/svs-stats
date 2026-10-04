@@ -162,6 +162,86 @@ ALLIANCES = {
         "rankLabels": {"R4": "Officers", "R3": "Combats", "R2": "Trainees", "R1": "Sleeping"},
     },
  },
+ # The Labyrinth boards sit in the state folders themselves rather than in a
+ # Labyrinth/ subfolder: IMG_3831..3847 for 3178, IMG_3773..3789 for 3196.
+ "2026.10.05": {
+    "3178_VKR": {
+        "tag": "VKR", "name": "Pumpkings", "state": "3178",
+        "memberCount": 100, "memberCapacity": 100,
+        "infoTotalPower": 37_527_420_745,
+        "infoImage": "IMG_3790.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3791, 3800)],
+        "rankLabels": {"R4": "Jarls", "R3": "Karls", "R2": "Thralls", "R1": "Draugr"},
+    },
+    "3178_TTC": {
+        "tag": "TTC", "name": "東都", "state": "3178",
+        "memberCount": 91, "memberCapacity": 100,
+        "infoTotalPower": 28_485_619_983,
+        "infoImage": "IMG_3800.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3801, 3810)],
+        "rankLabels": {"R4": "연맹 계급 4", "R3": "연맹 계급 3",
+                       "R2": "연맹 계급 2", "R1": "연맹 계급 1"},
+    },
+    "3178_SIN": {
+        "tag": "SIN", "name": "DevilsAdvocates", "state": "3178",
+        "memberCount": 99, "memberCapacity": 100,
+        "infoTotalPower": 27_674_720_593,
+        "infoImage": "IMG_3810.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3811, 3820)],
+        "rankLabels": {"R4": "R04", "R3": "R03", "R2": "Check msg", "R1": "Offline 5+"},
+    },
+    "3178_UFO": {
+        "tag": "UFO", "name": "Aliens", "state": "3178",
+        "memberCount": 94, "memberCapacity": 100,
+        "infoTotalPower": 26_316_147_791,
+        "infoImage": "IMG_3820.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3821, 3830)],
+        "rankLabels": {"R4": "Gold", "R3": "Silver", "R2": "Value", "R1": "Budget"},
+    },
+    # TEA's Info screen (IMG_3830) closed the first pass with no member list
+    # behind it; the roster was shot later the same day and sits after the
+    # Labyrinth images.
+    "3178_TEA": {
+        "tag": "TEA", "name": "TheEternalArt", "state": "3178",
+        "memberCount": 60, "memberCapacity": 100,
+        "infoTotalPower": 10_769_720_436,
+        "infoImage": "IMG_3830.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3848, 3854)],
+        "rankLabels": {"R4": "Commanders", "R3": "Envoys", "R2": "Recruits", "R1": "Nomads"},
+    },
+    # 3196 was shot members-first for its top alliance: SRL's Info screen
+    # (IMG_3734) follows its roster instead of preceding it.
+    "3196_SRL": {
+        "tag": "SRL", "name": "ShangRiLa", "state": "3196",
+        "memberCount": 90, "memberCapacity": 100,
+        "infoTotalPower": 25_692_900_021,
+        "infoImage": "IMG_3734.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3725, 3734)],
+        "rankLabels": {"R4": "Commander", "R3": "Diamond", "R2": "Platinum", "R1": "Silver"},
+    },
+    "3196_RGA": {
+        "tag": "RGA", "name": "RockGroup", "state": "3196",
+        "memberCount": 90, "memberCapacity": 100,
+        "infoTotalPower": 25_429_979_407,
+        "infoImage": "IMG_3735.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3736, 3745)],
+        "rankLabels": {"R4": "Co-Leader", "R3": "FC 5+", "R2": "F30 ~ FC4", "R1": "<F29 & AFK"},
+    },
+    "3196_NYX": {
+        "tag": "NYX", "name": "EMPIRE", "state": "3196",
+        "memberCount": 74, "memberCapacity": 100,
+        "infoTotalPower": 19_377_973_122,
+        "infoImage": "IMG_3745.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3746, 3754)],
+        "rankLabels": {"R4": "mentors", "R3": "R3 +", "R2": "- r2", "R1": "mga ewan"},
+    },
+    "3196_ONE": {
+        "tag": "ONE", "name": "ONE", "state": "3196",
+        "memberCount": 99, "memberCapacity": 100,
+        "infoTotalPower": 18_448_260_248,
+        "infoImage": "IMG_3754.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3755, 3765)],
+        "rankLabels": {"R4": "DUKE", "R3": "EARL", "R2": "CITIZENS", "R1": "OUTOF TOWN"},
+    },
+    "3196_PNX": {
+        "tag": "PNX", "name": "PhoenixNobles", "state": "3196",
+        "memberCount": 76, "memberCapacity": 100,
+        "infoTotalPower": 16_010_154_783,
+        "infoImage": "IMG_3765.PNG", "rosterImages": ["IMG_%d.PNG" % n for n in range(3766, 3773)],
+        "rankLabels": {"R4": "Officers", "R3": "FC6-FC8", "R2": "FC5-Below", "R1": "Holiday"},
+    },
+ },
 }
 
 RANK_ORDER = ["R5", "R4", "R3", "R2", "R1"]
